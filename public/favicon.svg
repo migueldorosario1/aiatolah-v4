@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="24" fill="#080814"/>
+  <defs>
+    <mask id="fav-crescent">
+      <circle cx="60" cy="64" r="46" fill="white"/>
+      <circle cx="82" cy="58" r="36" fill="black"/>
+    </mask>
+  </defs>
+  <circle cx="60" cy="64" r="46" fill="#e8b84b" mask="url(#fav-crescent)"/>
+  <text x="100" y="110" font-family="sans-serif" font-weight="900" font-size="32" fill="#00d4ff" text-anchor="middle">AI</text>
+</svg>

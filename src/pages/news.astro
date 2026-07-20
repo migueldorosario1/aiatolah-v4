@@ -1,0 +1,261 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const modules = import.meta.glob('./en/posts/*.md', { eager: true });
+
+const posts = Object.entries(modules)
+  .map(([path, mod]: [string, any]) => {
+    const fm = mod.frontmatter ?? {};
+    const slug = path.replace('./en/posts/', '').replace('.md', '');
+    return {
+      title:    fm.title ?? slug,
+      date:     fm.date ?? '2026-01-01',
+      category: fm.category ?? 'AI',
+      excerpt:  fm.excerpt ?? '',
+      url:      `/en/posts/${slug}`,
+      heroImage: fm.heroImage ?? '/hero/default-aiatolah.jpg',
+      noHome:   fm.noHome === true,
+    };
+  })
+  .filter(p => !p.noHome)
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+const categoryColor: Record<string, string> = {
+  'Rankings':   'cat-cyan',
+  'China AI':   'cat-orange',
+  'Open Source':'cat-purple',
+  'Chip Wars':  'cat-red',
+  'Nvidia':     'cat-green',
+};
+---
+
+<Layout
+  title="Reports | AIatolah"
+  description="Latest intelligence on artificial intelligence, LLMs, chip wars and AI geopolitics — from a Global South perspective."
+>
+  <main class="container">
+
+    <!-- Category Filter Menu Bar (Replaces redundant AI News header) -->
+    <div class="filter-menu-container animate-fade-in">
+      <div class="filter-menu-bar glass-panel">
+        <button class="filter-btn active" data-filter="all">All Reports</button>
+        <button class="filter-btn" data-filter="Rankings">Rankings</button>
+        <button class="filter-btn" data-filter="China AI">China AI</button>
+        <button class="filter-btn" data-filter="Open Source">Open Source</button>
+        <button class="filter-btn" data-filter="Chip Wars">Chip Wars</button>
+      </div>
+    </div>
+
+    <section class="news-grid animate-fade-in">
+      {posts.map((post, i) => (
+        <a href={post.url} class={`news-card glass-panel ${i === 0 ? 'card-featured' : ''}`} data-category={post.category}>
+          <div class="card-top">
+            <span class={`cat-tag ${categoryColor[post.category] ?? 'cat-default'}`}>
+              {post.category}
+            </span>
+            <span class="card-date">
+              {new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+            </span>
+          </div>
+          <h2 class="card-title">{post.title}</h2>
+          {post.excerpt && <p class="card-excerpt">{post.excerpt}</p>}
+          <span class="card-cta">Read more →</span>
+        </a>
+      ))}
+    </section>
+
+  </main>
+</Layout>
+
+<script>
+  const buttons = document.querySelectorAll('.filter-btn');
+  const cards = document.querySelectorAll('.news-card') as NodeListOf<HTMLElement>;
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      // Remove active class from all
+      buttons.forEach(b => b.classList.remove('active'));
+      // Add active class to clicked
+      btn.classList.add('active');
+
+      const filter = btn.getAttribute('data-filter');
+
+      cards.forEach(card => {
+        const cat = card.getAttribute('data-category');
+        if (filter === 'all' || cat === filter) {
+          card.style.display = 'flex';
+          card.classList.remove('animate-fade-in');
+          void card.offsetWidth; // trigger reflow
+          card.classList.add('animate-fade-in');
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      // Adjust featured layout if filtering
+      if (filter === 'all') {
+        const firstVisible = Array.from(cards).find(c => c.style.display !== 'none');
+        if (firstVisible) firstVisible.classList.add('card-featured');
+      } else {
+        cards.forEach(card => card.classList.remove('card-featured'));
+      }
+    });
+  });
+</script>
+
+<style>
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  /* Filter Menu Bar styling */
+  .filter-menu-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .filter-menu-bar {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(8, 8, 20, 0.6);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  }
+
+  .filter-btn {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.6);
+    background: none;
+    border: none;
+    padding: 0.5rem 1.25rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .filter-btn:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  .filter-btn.active {
+    color: #00d4ff;
+    background: rgba(0, 212, 255, 0.12);
+    border: 1px solid rgba(0, 212, 255, 0.2);
+  }
+
+  /* Grid */
+  .news-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+  }
+
+  /* Cards */
+  .news-card {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 12px;
+  }
+
+  .news-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+  }
+
+  .card-featured {
+    grid-column: span 2;
+  }
+
+  .card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  /* Category tags */
+  .cat-tag {
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .cat-cyan   { background: rgba(0,212,255,0.12);   color: #00d4ff;  }
+  .cat-orange { background: rgba(255,107,53,0.12);  color: #ff6b35;  }
+  .cat-purple { background: rgba(123,47,247,0.12);  color: #a78bfa;  }
+  .cat-red    { background: rgba(255,60,60,0.12);   color: #ff6060;  }
+  .cat-green  { background: rgba(80,220,120,0.12);  color: #4ade80;  }
+  .cat-default{ background: rgba(255,255,255,0.07); color: rgba(255,255,255,0.5); }
+
+  .card-date {
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.3);
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .card-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgba(255,255,255,0.9);
+    line-height: 1.4;
+    margin: 0;
+  }
+
+  .card-featured .card-title {
+    font-size: 1.25rem;
+  }
+
+  .card-excerpt {
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.5);
+    line-height: 1.6;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .card-cta {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: rgba(0,212,255,0.6);
+    font-family: 'Outfit', sans-serif;
+    margin-top: auto;
+    transition: color 0.2s;
+  }
+
+  .news-card:hover .card-cta { color: #00d4ff; }
+
+  /* Responsive */
+  @media (max-width: 900px) {
+    .news-grid { grid-template-columns: 1fr 1fr; }
+    .card-featured { grid-column: span 2; }
+  }
+
+  @media (max-width: 600px) {
+    .container { padding: 2rem 1rem; }
+    .news-grid { grid-template-columns: 1fr; }
+    .card-featured { grid-column: span 1; }
+  }
+</style>

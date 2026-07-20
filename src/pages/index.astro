@@ -1,0 +1,608 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const modules = import.meta.glob('./en/posts/*.md', { eager: true });
+
+const allPosts = Object.entries(modules)
+  .map(([path, mod]: [string, any]) => {
+    const fm = mod.frontmatter ?? {};
+    const slug = path.replace('./en/posts/', '').replace('.md', '');
+    return {
+      title:    fm.title ?? slug,
+      date:     fm.date ?? '2026-01-01',
+      category: fm.category ?? 'AI',
+      excerpt:  fm.excerpt ?? '',
+      url:      `/en/posts/${slug}`,
+      lang:     fm.lang ?? 'en',
+      source:   fm.source ?? '',
+      heroImage: fm.heroImage ?? '/hero/default-aiatolah.jpg',
+      noHome:   fm.noHome === true,
+    };
+  })
+  .filter(p => !p.noHome)
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+const posts = allPosts.slice(0, 7); // Show latest 7 posts (1 hero + 6 in grid)
+
+const videoPosts = allPosts
+  .filter(p => p.source.includes('youtube.com') || p.source.includes('youtu.be') || p.category === 'YouTube')
+  .slice(0, 4);
+
+function getYouTubeId(url: string) {
+  if (!url) return null;
+  const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+  const match = url.match(regExp);
+  return (match && match[2].length === 11) ? match[2] : null;
+}
+---
+
+<Layout
+  title="AI Geopolitics & Rankings"
+  description="AIatolah — Independent rankings and news on AI models and LLMs. China vs USA from a multilateral, Global South perspective."
+>
+  <main class="container">
+
+    <section class="editorial-intro glass-panel animate-fade-in">
+      <div class="intro-header">
+        <h1 class="intro-title">AIatolah <span class="ai-cyan">Intelligence</span></h1>
+        <span class="update-badge">⟳ Updated every 3 hours</span>
+      </div>
+      <p class="intro-sub">
+        A multilateral curation of the frontier AI landscape. Benchmark comparisons of Chinese and American LLMs, semiconductor supply chains, and sovereign tech developments.
+      </p>
+    </section>
+
+    <div class="layout-main animate-fade-in">
+      
+      <!-- News Feed (Left) -->
+      <section class="news-area">
+        
+        <div class="video-showcase">
+          <h2 class="section-title-line">🎥 Frontier Broadcasts</h2>
+          <div class="video-grid">
+            {videoPosts.map((post) => {
+              const videoId = getYouTubeId(post.source);
+              return (
+                <div class="video-card glass-panel">
+                  <div class="video-wrapper">
+                    {videoId ? (
+                      <iframe 
+                        src={`https://www.youtube.com/embed/${videoId}`} 
+                        title={post.title} 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen
+                        loading="lazy"
+                      ></iframe>
+                    ) : (
+                      <img src={post.heroImage} alt={post.title} class="card-image" width="640" height="360" loading="lazy" />
+                    )}
+                  </div>
+                  <div class="video-card-content">
+                    <span class="video-card-category">{post.category}</span>
+                    <a href={post.url} style="text-decoration: none; color: inherit;">
+                      <h3 class="video-card-title">{post.title}</h3>
+                    </a>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        <h2 class="section-title-line">📡 Latest Reports</h2>
+        
+        {posts.length === 0 ? (
+          <div class="glass-panel empty-news">
+            <p>No reports published yet. Check back soon!</p>
+          </div>
+        ) : (
+          <div class="news-main-grid">
+            {posts.map((post, i) => (
+              <a href={post.url} class={`home-news-card glass-panel ${i === 0 ? 'card-hero' : 'card-grid'}`}>
+                <div class="card-image-wrapper">
+                  <img src={post.heroImage} alt={post.title} class="card-image" width="640" height="360" loading="lazy" />
+                </div>
+                <div class="card-content">
+                  <div class="card-meta">
+                    <span class="card-category">{post.category}</span>
+                    <span class="card-date">
+                      {new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                    </span>
+                  </div>
+                  <h3 class="card-title">{post.title}</h3>
+                  {i === 0 && post.excerpt && <p class="card-excerpt">{post.excerpt}</p>}
+                  <span class="card-read-more">Read analysis →</span>
+                </div>
+              </a>
+            ))}
+          </div>
+        )}
+      </section>
+
+      <!-- Sidebar Rankings (Right) -->
+      <aside class="sidebar-area">
+        
+        <div class="sidebar-block glass-panel">
+          <h2 class="sidebar-title china">🇨🇳 China LLMs</h2>
+          <div class="model-list">
+            <div class="model-item">
+              <span class="model-name">DeepSeek V3</span>
+              <span class="model-tag best-value">Best value</span>
+            </div>
+            <div class="model-item">
+              <span class="model-name">Qwen 3 Max</span>
+              <span class="model-tag">Alibaba</span>
+            </div>
+            <div class="model-item">
+              <span class="model-name">Kimi K2</span>
+              <span class="model-tag">Moonshot</span>
+            </div>
+            <div class="model-item">
+              <span class="model-name">GLM-4</span>
+              <span class="model-tag">Zhipu</span>
+            </div>
+          </div>
+          <a href="/rankings" class="sidebar-cta">Full benchmark ranking →</a>
+        </div>
+
+        <div class="sidebar-block glass-panel">
+          <h2 class="sidebar-title usa">🇺🇸 USA LLMs</h2>
+          <div class="model-list">
+            <div class="model-item">
+              <span class="model-name">Claude Sonnet</span>
+              <span class="model-tag">Anthropic</span>
+            </div>
+            <div class="model-item">
+              <span class="model-name">GPT-4o</span>
+              <span class="model-tag">OpenAI</span>
+            </div>
+            <div class="model-item">
+              <span class="model-name">Gemini 1.5 Pro</span>
+              <span class="model-tag">Google</span>
+            </div>
+            <div class="model-item">
+              <span class="model-name">Llama 3.3 70B</span>
+              <span class="model-tag best-open">Open source</span>
+            </div>
+          </div>
+          <a href="/rankings" class="sidebar-cta">Full benchmark ranking →</a>
+        </div>
+
+      </aside>
+
+    </div>
+
+  </main>
+</Layout>
+
+<style>
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  /* Compact Editorial Intro */
+  .editorial-intro {
+    padding: 1.75rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    border-radius: 12px;
+  }
+
+  .intro-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .intro-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: -0.5px;
+    margin: 0;
+  }
+
+  .ai-cyan {
+    color: #00d4ff;
+  }
+
+  .update-badge {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: rgba(0, 212, 255, 0.85);
+    background: rgba(0, 212, 255, 0.08);
+    border: 1px solid rgba(0, 212, 255, 0.2);
+    padding: 0.25rem 0.75rem;
+    border-radius: 30px;
+    letter-spacing: 0.02em;
+  }
+
+  .intro-sub {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.6;
+    margin: 0;
+    max-width: 900px;
+  }
+
+  /* Main Layout Grid */
+  .layout-main {
+    display: grid;
+    grid-template-columns: 2.3fr 1fr;
+    gap: 2rem;
+    align-items: start;
+  }
+
+  /* Left News Area */
+  .news-area {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .section-title-line {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.9);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin: 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .empty-news {
+    padding: 3rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .news-main-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  /* Home News Card */
+  .home-news-card {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.02);
+  }
+
+  .home-news-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(0, 212, 255, 0.3);
+    background: rgba(0, 212, 255, 0.04);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+  }
+
+  /* Hero News Card layout */
+  .card-hero {
+    grid-column: span 2;
+    flex-direction: row;
+    min-height: 300px;
+  }
+
+  .card-hero .card-image-wrapper {
+    width: 50%;
+    aspect-ratio: auto;
+  }
+
+  .card-hero .card-content {
+    width: 50%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+
+  /* Grid News Card layout */
+  .card-grid .card-image-wrapper {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
+
+  .card-grid .card-content {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    flex-grow: 1;
+  }
+
+  .card-image-wrapper {
+    overflow: hidden;
+    position: relative;
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .home-news-card:hover .card-image {
+    transform: scale(1.03);
+  }
+
+  .card-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.72rem;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .card-category {
+    color: #00d4ff;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .card-date {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .card-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 800;
+    line-height: 1.3;
+    color: rgba(255, 255, 255, 0.95);
+    margin: 0;
+    transition: color 0.2s;
+  }
+
+  .card-hero .card-title {
+    font-size: 1.5rem;
+  }
+
+  .home-news-card:hover .card-title {
+    color: #00d4ff;
+  }
+
+  .card-excerpt {
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.55);
+    line-height: 1.5;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .card-read-more {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: rgba(0, 212, 255, 0.7);
+    margin-top: auto;
+    display: inline-block;
+    transition: color 0.2s;
+  }
+
+  .home-news-card:hover .card-read-more {
+    color: #00d4ff;
+  }
+
+  /* Right Sidebar Area */
+  .sidebar-area {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .sidebar-block {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    border-radius: 12px;
+  }
+
+  .sidebar-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .china { color: #ff6b35; }
+  .usa { color: #4da6ff; }
+
+  .model-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .model-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.55rem 0.7rem;
+    border-radius: 7px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.06);
+  }
+
+  .model-name {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: rgba(255,255,255,0.85);
+  }
+
+  .model-tag {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: rgba(255,255,255,0.4);
+    background: rgba(255,255,255,0.05);
+    padding: 0.15rem 0.45rem;
+    border-radius: 4px;
+  }
+
+  .best-value { color: #00d4ff; background: rgba(0,212,255,0.1); }
+  .best-open  { color: #7b2ff7; background: rgba(123,47,247,0.1); }
+
+  .sidebar-cta {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: rgba(0, 212, 255, 0.75);
+    text-decoration: none;
+    transition: color 0.2s;
+    margin-top: auto;
+  }
+
+  .sidebar-cta:hover {
+    color: #00d4ff;
+  }
+
+  /* Responsive Adjustments */
+  @media (max-width: 1024px) {
+    .layout-main {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      padding: 1.25rem 1rem;
+      gap: 1.5rem;
+    }
+
+    .editorial-intro {
+      padding: 1.25rem;
+    }
+
+    .intro-title {
+      font-size: 1.5rem;
+    }
+
+    .news-main-grid {
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+
+    .card-hero {
+      flex-direction: column;
+    }
+
+    .card-hero .card-image-wrapper {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+    }
+
+    .card-hero .card-content {
+      width: 100%;
+      padding: 1.25rem;
+    }
+  }
+
+  /* Video Showcase CSS */
+  .video-showcase {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .video-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.02);
+  }
+
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    background: #000;
+  }
+
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .video-card-content {
+    padding: 1rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .video-card-category {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: #00d4ff;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .video-card-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 800;
+    line-height: 1.3;
+    color: rgba(255, 255, 255, 0.95);
+    margin: 0;
+    transition: color 0.2s ease;
+  }
+
+  .video-card:hover .video-card-title {
+    color: #00d4ff;
+  }
+
+
+  @media (max-width: 768px) {
+    .video-grid {
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+  }
+</style>
