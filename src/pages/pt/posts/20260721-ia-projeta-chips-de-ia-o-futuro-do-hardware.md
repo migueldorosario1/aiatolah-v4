@@ -3,7 +3,7 @@ layout: ../../../layouts/PostLayout.astro
 title: 'IA Projeta Chips de IA: O Futuro do Hardware'
 date: 2026-07-21
 category: 'Vídeos'
-lang: "pt-BR"
+lang: "pt-br"
 source: 'https://www.youtube.com/watch?v=IgeSqbmeP9I'
 heroImage: "/hero/youtube-IgeSqbmeP9I.jpg"
 ---

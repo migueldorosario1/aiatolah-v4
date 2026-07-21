@@ -3,7 +3,7 @@ layout: ../../../layouts/PostLayout.astro
 title: 'Alex Karp debate governança de IA e o modelo Fable V da Anthropic'
 date: 2026-07-21
 category: 'Vídeos'
-lang: "pt-BR"
+lang: "pt-br"
 source: 'https://www.youtube.com/watch?v=LYACj1pwP94'
 heroImage: "/hero/youtube-LYACj1pwP94.jpg"
 ---
