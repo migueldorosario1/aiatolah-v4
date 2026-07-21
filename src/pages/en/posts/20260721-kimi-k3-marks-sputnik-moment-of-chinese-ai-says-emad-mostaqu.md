@@ -1,6 +1,6 @@
 ---
 layout: ../../../layouts/PostLayout.astro
-title: 'Kimi K3 marks 'Sputnik moment' of Chinese AI, says Emad Mostaque'
+title: 'Kimi K3 marks ''Sputnik moment'' of Chinese AI, says Emad Mostaque'
 date: 2026-07-21
 category: 'Videos'
 lang: "en"

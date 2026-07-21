@@ -1,6 +1,6 @@
 ---
 layout: ../../../layouts/PostLayout.astro
-title: 'Kimi K3 marca 'momento Sputnik' da IA chinesa, diz Emad Mostaque'
+title: 'Kimi K3 marca ''momento Sputnik'' da IA chinesa, diz Emad Mostaque'
 date: 2026-07-21
 category: 'Vídeos'
 lang: "pt"
