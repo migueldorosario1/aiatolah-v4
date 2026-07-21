@@ -3,7 +3,7 @@ layout: ../../../layouts/PostLayout.astro
 title: 'IA não substitui pessoas, diz Diamandis; ela redesenha o trabalho'
 date: 2026-07-21
 category: 'Vídeos'
-lang: "pt"
+lang: "pt-br"
 excerpt: "Salim Ismail explica que o maior ganho da IA não é cortar empregos, mas sim repensar fluxos de trabalho. Assista."
 source: 'https://www.youtube.com/watch?v=lW6bbiLBUdQ'
 heroImage: "/hero/youtube-lW6bbiLBUdQ.jpg"

@@ -3,7 +3,7 @@ layout: ../../../layouts/PostLayout.astro
 title: 'IA Projetando Hardware de IA: O Próximo Salto Autorecursivo'
 date: 2026-07-21
 category: 'Vídeos'
-lang: "pt"
+lang: "pt-br"
 excerpt: "Peter Diamandis explica como IA projetando chips pode acelerar a melhoria recursiva, transformando o ritmo da inovação."
 source: 'https://www.youtube.com/watch?v=Tx1jPLU1CBs'
 heroImage: "/hero/youtube-Tx1jPLU1CBs.jpg"

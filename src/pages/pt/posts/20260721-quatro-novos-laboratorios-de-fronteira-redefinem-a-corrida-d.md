@@ -3,7 +3,7 @@ layout: ../../../layouts/PostLayout.astro
 title: 'Quatro novos laboratórios de fronteira redefinem a corrida da IA'
 date: 2026-07-21
 category: 'Vídeos'
-lang: "pt"
+lang: "pt-br"
 excerpt: "Peter Diamandis e Alex Wissner-Gross analisam a semana que mudou o cenário competitivo da inteligência artificial."
 source: 'https://www.youtube.com/watch?v=BGiJkk9Pmeg'
 heroImage: "/hero/youtube-BGiJkk9Pmeg.jpg"

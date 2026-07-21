@@ -3,7 +3,7 @@ layout: ../../../layouts/PostLayout.astro
 title: 'IA pode ser inventora? Peter Diamandis investiga'
 date: 2026-07-21
 category: 'Vídeos'
-lang: "pt"
+lang: "pt-br"
 excerpt: "Peter Diamandis analisa se a IA pode ser reconhecida legalmente como inventora. Um dos maiores dilemas jurídicos da era da IA."
 source: 'https://www.youtube.com/watch?v=BBTEt82qGRA'
 heroImage: "/hero/youtube-BBTEt82qGRA.jpg"

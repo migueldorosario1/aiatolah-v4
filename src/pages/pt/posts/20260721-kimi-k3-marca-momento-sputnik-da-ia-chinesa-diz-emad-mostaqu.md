@@ -3,7 +3,7 @@ layout: ../../../layouts/PostLayout.astro
 title: 'Kimi K3 marca ''momento Sputnik'' da IA chinesa, diz Emad Mostaque'
 date: 2026-07-21
 category: 'Vídeos'
-lang: "pt"
+lang: "pt-br"
 excerpt: "Especialistas analisam o modelo K3 chinês, seu impacto geopolítico e a corrida EUA-China por supremacia em IA."
 source: 'https://www.youtube.com/watch?v=pSUyLfirP8Y'
 heroImage: "/hero/youtube-pSUyLfirP8Y.jpg"
