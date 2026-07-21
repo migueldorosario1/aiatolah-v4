@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-08",
-  "usd_brl": 5.80,
+  "updated_at": "2026-07-21",
+  "usd_brl": 5.8,
   "note": "Prices are per million tokens (input/output). Indicative — check provider for current rates.",
   "models": [
     {
@@ -14,7 +14,10 @@
       "quality": "B",
       "speed": "Very Fast",
       "open_source": false,
-      "tags": ["cheapest", "basic tasks"],
+      "tags": [
+        "cheapest",
+        "basic tasks"
+      ],
       "link": "https://open.bigmodel.cn/"
     },
     {
@@ -23,12 +26,15 @@
       "provider": "Mistral AI",
       "country": "FR",
       "flag": "🇫🇷",
-      "input_usd": 0.10,
-      "output_usd": 0.30,
+      "input_usd": 0.1,
+      "output_usd": 0.3,
       "quality": "B",
       "speed": "Fast",
       "open_source": false,
-      "tags": ["europe", "efficient"],
+      "tags": [
+        "europe",
+        "efficient"
+      ],
       "link": "https://mistral.ai/"
     },
     {
@@ -38,11 +44,14 @@
       "country": "CN",
       "flag": "🇨🇳",
       "input_usd": 0.14,
-      "output_usd": 2.50,
+      "output_usd": 2.5,
       "quality": "S",
       "speed": "Fast",
       "open_source": false,
-      "tags": ["agentic", "long context"],
+      "tags": [
+        "agentic",
+        "long context"
+      ],
       "link": "https://kimi.moonshot.cn/"
     },
     {
@@ -52,11 +61,14 @@
       "country": "US",
       "flag": "🇺🇸",
       "input_usd": 0.15,
-      "output_usd": 0.60,
+      "output_usd": 0.6,
       "quality": "B",
       "speed": "Very Fast",
       "open_source": false,
-      "tags": ["mass tasks", "triagem"],
+      "tags": [
+        "mass tasks",
+        "triagem"
+      ],
       "link": "https://chatgpt.com/"
     },
     {
@@ -66,11 +78,14 @@
       "country": "US",
       "flag": "🇺🇸",
       "input_usd": 0.15,
-      "output_usd": 0.60,
+      "output_usd": 0.6,
       "quality": "A",
       "speed": "Very Fast",
       "open_source": false,
-      "tags": ["multimodal", "fast reasoning"],
+      "tags": [
+        "multimodal",
+        "fast reasoning"
+      ],
       "link": "https://gemini.google.com/"
     },
     {
@@ -79,12 +94,16 @@
       "provider": "DeepSeek",
       "country": "CN",
       "flag": "🇨🇳",
-      "input_usd": 0.20,
-      "output_usd": 0.80,
+      "input_usd": 0.2,
+      "output_usd": 0.8,
       "quality": "S",
       "speed": "Very Fast",
       "open_source": true,
-      "tags": ["best value", "frontier", "open source"],
+      "tags": [
+        "best value",
+        "frontier",
+        "open source"
+      ],
       "link": "https://chat.deepseek.com/"
     },
     {
@@ -98,7 +117,11 @@
       "quality": "S",
       "speed": "Fast",
       "open_source": true,
-      "tags": ["MoE", "open source", "best value"],
+      "tags": [
+        "MoE",
+        "open source",
+        "best value"
+      ],
       "link": "https://chat.qwen.ai/"
     },
     {
@@ -108,11 +131,15 @@
       "country": "US",
       "flag": "🇺🇸",
       "input_usd": 0.25,
-      "output_usd": 1.50,
+      "output_usd": 1.5,
       "quality": "A",
       "speed": "Very Fast",
       "open_source": false,
-      "tags": ["efficient", "low latency", "multimodal"],
+      "tags": [
+        "efficient",
+        "low latency",
+        "multimodal"
+      ],
       "link": "https://gemini.google.com/"
     },
     {
@@ -122,11 +149,15 @@
       "country": "CN",
       "flag": "🇨🇳",
       "input_usd": 0.27,
-      "output_usd": 1.10,
+      "output_usd": 1.1,
       "quality": "S",
       "speed": "Fast",
       "open_source": true,
-      "tags": ["best value", "coding", "open source"],
+      "tags": [
+        "best value",
+        "coding",
+        "open source"
+      ],
       "link": "https://chat.deepseek.com/"
     },
     {
@@ -140,7 +171,11 @@
       "quality": "S",
       "speed": "Medium",
       "open_source": true,
-      "tags": ["reasoning", "math", "open source"],
+      "tags": [
+        "reasoning",
+        "math",
+        "open source"
+      ],
       "link": "https://chat.deepseek.com/"
     },
     {
@@ -154,7 +189,10 @@
       "quality": "A",
       "speed": "Fast",
       "open_source": true,
-      "tags": ["open source", "self-host"],
+      "tags": [
+        "open source",
+        "self-host"
+      ],
       "link": "https://llama.meta.com/"
     },
     {
@@ -163,12 +201,15 @@
       "provider": "Alibaba",
       "country": "CN",
       "flag": "🇨🇳",
-      "input_usd": 1.10,
-      "output_usd": 3.50,
+      "input_usd": 1.1,
+      "output_usd": 3.5,
       "quality": "S",
       "speed": "Medium",
       "open_source": false,
-      "tags": ["frontier", "multilingual"],
+      "tags": [
+        "frontier",
+        "multilingual"
+      ],
       "link": "https://chat.qwen.ai/"
     },
     {
@@ -178,11 +219,15 @@
       "country": "US",
       "flag": "🇺🇸",
       "input_usd": 1.25,
-      "output_usd": 10.00,
+      "output_usd": 10.0,
       "quality": "S",
       "speed": "Medium",
       "open_source": false,
-      "tags": ["frontier", "multimodal", "long context"],
+      "tags": [
+        "frontier",
+        "multimodal",
+        "long context"
+      ],
       "link": "https://gemini.google.com/"
     },
     {
@@ -191,12 +236,16 @@
       "provider": "Google",
       "country": "US",
       "flag": "🇺🇸",
-      "input_usd": 1.50,
-      "output_usd": 9.00,
+      "input_usd": 1.5,
+      "output_usd": 9.0,
       "quality": "S",
       "speed": "Very Fast",
       "open_source": false,
-      "tags": ["multimodal", "fast reasoning", "efficient"],
+      "tags": [
+        "multimodal",
+        "fast reasoning",
+        "efficient"
+      ],
       "link": "https://gemini.google.com/"
     },
     {
@@ -205,12 +254,16 @@
       "provider": "OpenAI",
       "country": "US",
       "flag": "🇺🇸",
-      "input_usd": 2.00,
-      "output_usd": 8.00,
+      "input_usd": 2.0,
+      "output_usd": 8.0,
       "quality": "S",
       "speed": "Very Fast",
       "open_source": false,
-      "tags": ["frontier", "reasoning", "multimodal"],
+      "tags": [
+        "frontier",
+        "reasoning",
+        "multimodal"
+      ],
       "link": "https://chatgpt.com/"
     },
     {
@@ -219,12 +272,16 @@
       "provider": "Google",
       "country": "US",
       "flag": "🇺🇸",
-      "input_usd": 2.00,
-      "output_usd": 12.00,
+      "input_usd": 2.0,
+      "output_usd": 12.0,
       "quality": "S",
       "speed": "Fast",
       "open_source": false,
-      "tags": ["frontier", "long context", "reasoning"],
+      "tags": [
+        "frontier",
+        "long context",
+        "reasoning"
+      ],
       "link": "https://gemini.google.com/"
     },
     {
@@ -233,12 +290,15 @@
       "provider": "Mistral AI",
       "country": "FR",
       "flag": "🇫🇷",
-      "input_usd": 2.00,
-      "output_usd": 6.00,
+      "input_usd": 2.0,
+      "output_usd": 6.0,
       "quality": "A",
       "speed": "Medium",
       "open_source": false,
-      "tags": ["europe", "multilingual"],
+      "tags": [
+        "europe",
+        "multilingual"
+      ],
       "link": "https://mistral.ai/"
     },
     {
@@ -247,12 +307,15 @@
       "provider": "OpenAI",
       "country": "US",
       "flag": "🇺🇸",
-      "input_usd": 2.50,
-      "output_usd": 10.00,
+      "input_usd": 2.5,
+      "output_usd": 10.0,
       "quality": "S",
       "speed": "Fast",
       "open_source": false,
-      "tags": ["frontier", "multimodal"],
+      "tags": [
+        "frontier",
+        "multimodal"
+      ],
       "link": "https://chatgpt.com/"
     },
     {
@@ -261,12 +324,16 @@
       "provider": "Anthropic",
       "country": "US",
       "flag": "🇺🇸",
-      "input_usd": 3.00,
-      "output_usd": 12.00,
+      "input_usd": 3.0,
+      "output_usd": 12.0,
       "quality": "S",
       "speed": "Medium",
       "open_source": false,
-      "tags": ["frontier", "coding", "reasoning"],
+      "tags": [
+        "frontier",
+        "coding",
+        "reasoning"
+      ],
       "link": "https://claude.ai/"
     },
     {
@@ -275,12 +342,16 @@
       "provider": "Anthropic",
       "country": "US",
       "flag": "🇺🇸",
-      "input_usd": 3.00,
-      "output_usd": 15.00,
+      "input_usd": 3.0,
+      "output_usd": 15.0,
       "quality": "S",
       "speed": "Fast",
       "open_source": false,
-      "tags": ["frontier", "coding", "reasoning"],
+      "tags": [
+        "frontier",
+        "coding",
+        "reasoning"
+      ],
       "link": "https://claude.ai/"
     },
     {
@@ -289,13 +360,35 @@
       "provider": "OpenAI",
       "country": "US",
       "flag": "🇺🇸",
-      "input_usd": 15.00,
-      "output_usd": 60.00,
+      "input_usd": 15.0,
+      "output_usd": 60.0,
       "quality": "S",
       "speed": "Slow",
       "open_source": false,
-      "tags": ["reasoning", "premium"],
+      "tags": [
+        "reasoning",
+        "premium"
+      ],
       "link": "https://chatgpt.com/"
+    },
+    {
+      "id": "kimi-k3",
+      "name": "Kimi K3",
+      "provider": "Moonshot AI",
+      "country": "CN",
+      "flag": "🇨🇳",
+      "input_usd": 3.0,
+      "output_usd": 15.0,
+      "quality": "S",
+      "speed": "Fast",
+      "open_source": true,
+      "tags": [
+        "open-weight",
+        "2.8T params",
+        "1M context",
+        "sputnik moment"
+      ],
+      "link": "https://platform.moonshot.ai/"
     }
   ]
 }
