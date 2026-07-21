@@ -5,7 +5,6 @@ date: 2026-07-20
 category: 'Desenvolvimento'
 lang: "pt-BR"
 source: 'https://blaizzy.github.io/nativ/'
-noHome: true
 ---
 Um novo aplicativo de código aberto promete rodar modelos de linguagem de ponta diretamente no Mac, sem depender de nuvem ou assinaturas. O Nativ, desenvolvido pelo pesquisador Blaizzy, é um desktop app para Apple Silicon (M1 e superiores) que integra modelos como Google Gemma, Cohere Command R e Liquid AI.
 

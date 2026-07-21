@@ -6,7 +6,6 @@ category: 'Vídeos'
 lang: "pt-BR"
 source: 'https://www.youtube.com/watch?v=IgeSqbmeP9I'
 heroImage: "/hero/youtube-IgeSqbmeP9I.jpg"
-noHome: true
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IgeSqbmeP9I" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 

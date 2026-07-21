@@ -5,7 +5,6 @@ date: 2026-07-20
 category: 'Geopolítica da IA'
 lang: "pt-BR"
 source: 'https://stratechery.com/2026/whos-afraid-of-chinese-models/'
-noHome: true
 ---
 O lançamento do modelo de pesos abertos Kimi K3, da China, reacendeu o debate sobre o real custo da inteligência artificial. Segundo análise do Stratechery, a discussão vai além do preço de desenvolvimento e toca no custo dos produtos vendidos (COGS), que é o verdadeiro termômetro para a viabilidade econômica dos modelos.
 
