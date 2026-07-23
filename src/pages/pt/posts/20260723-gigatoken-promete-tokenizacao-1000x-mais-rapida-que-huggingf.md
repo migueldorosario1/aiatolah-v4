@@ -2,11 +2,11 @@
 layout: ../../../layouts/PostLayout.astro
 title: 'GigaToken promete tokenização 1000x mais rápida que HuggingFace'
 date: 2026-07-23
+heroImage: "/hero/gigatoken-promete-tokenizacao-1000x-mais-rapida-que-huggingf.jpg"
 category: 'Desenvolvimento'
 lang: "pt-br"
 excerpt: "Nova biblioteca Rust alcança GB/s em tokenização, superando HuggingFace e tiktoken em benchmarks."
 source: 'https://github.com/marcelroed/gigatoken/'
-heroImage: "/hero/gigatoken-promete-tokenizacao-1000x-mais-rapida-que-huggingf.jpg"
 ---
 O desenvolvedor Marcel Röed lançou o GigaToken, uma biblioteca de tokenização para modelos de linguagem que promete ser até 1000 vezes mais rápida que a HuggingFace Tokenizers. O projeto está disponível no GitHub e pode ser instalado via pip.
 

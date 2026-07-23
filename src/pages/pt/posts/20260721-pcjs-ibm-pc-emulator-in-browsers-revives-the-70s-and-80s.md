@@ -2,6 +2,7 @@
 layout: ../../../layouts/PostLayout.astro
 title: 'PCjs: Emulador de IBM PC nos Navegadores Revive Décadas de 70 e 80'
 date: 2026-07-21
+heroImage: "/hero/pcjs-emulador-de-ibm-pc-nos-navegadores-revive-decadas-de-70.jpg"
 category: 'Desenvolvimento'
 lang: "pt-br"
 excerpt: "PCjs traz emulação de hardware clássico via JavaScript, incluindo IBM PC, minicomputadores e arcades. Projeto open source no GitHub."
