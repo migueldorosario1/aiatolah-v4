@@ -2,6 +2,8 @@
 layout: ../../../layouts/PostLayout.astro
 title: 'NEO Radar: Engine Tracks 41,812 Real Asteroids Precisely'
 date: 2026-07-22
+heroImage: "/hero/neo-radar-engine-rastreia-41-812-asteroides-reais-precisamen.jpg"
+hero_credit: "Wikimedia Commons (CC BY 4.0) — Vyacheslav Argenberg"
 category: 'Models and Algorithms'
 lang: "en"
 excerpt: "New orbital tool simulates all planets with high fidelity, using precise algorithms for tracking space objects."

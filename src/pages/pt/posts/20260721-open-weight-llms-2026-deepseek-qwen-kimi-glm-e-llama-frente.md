@@ -2,6 +2,8 @@
 layout: ../../../layouts/PostLayout.astro
 title: 'Open-weight LLMs 2026: DeepSeek, Qwen, Kimi, GLM e Llama frente a frente'
 date: 2026-07-21
+heroImage: "/hero/open-weight-llms-2026-deepseek-qwen-kimi-glm-e-llama-frente.jpg"
+hero_credit: "Wikimedia Commons (CC BY-SA 2.0) — Christopher Bowns"
 category: 'Modelos e Algoritmos'
 lang: "pt-br"
 excerpt: "Comparação técnica de preço, contexto, licença e desempenho dos principais modelos abertos de 2026, com destaque para os chineses."

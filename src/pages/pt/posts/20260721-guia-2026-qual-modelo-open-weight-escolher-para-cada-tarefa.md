@@ -2,6 +2,8 @@
 layout: ../../../layouts/PostLayout.astro
 title: 'Guia 2026: qual modelo open-weight escolher para cada tarefa'
 date: 2026-07-21
+heroImage: "/hero/guia-2026-qual-modelo-open-weight-escolher-para-cada-tarefa.jpg"
+hero_credit: "Wikimedia Commons (CC0) — Markus Spiske markusspiske"
 category: 'Modelos e Algoritmos'
 lang: "pt-br"
 excerpt: "GLM 5.2, DeepSeek V4, MiniMax M3, Kimi K2.6 e Qwen 3.6 comparados em inteligência, custo, contexto e licenciamento."

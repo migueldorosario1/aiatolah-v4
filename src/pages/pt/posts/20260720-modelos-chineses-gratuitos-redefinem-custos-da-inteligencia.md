@@ -2,6 +2,8 @@
 layout: ../../../layouts/PostLayout.astro
 title: 'Modelos chineses gratuitos redefinem custos da inteligência artificial'
 date: 2026-07-20
+heroImage: "/hero/modelos-chineses-gratuitos-redefinem-custos-da-inteligencia.jpg"
+hero_credit: "Wikimedia Commons (CC BY-SA 4.0) — Nicholas-halodi"
 category: 'Geopolítica da IA'
 lang: "pt-br"
 source: 'https://stratechery.com/2026/whos-afraid-of-chinese-models/'

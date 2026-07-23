@@ -2,6 +2,8 @@
 layout: ../../../layouts/PostLayout.astro
 title: 'Kimi K3 da Moonshot AI: modelo open-source de 2,8T assume liderança em codificação front-end'
 date: 2026-07-21
+heroImage: "/hero/kimi-k3-da-moonshot-ai-modelo-open-source-de-2-8t-assume-lid.jpg"
+hero_credit: "Wikimedia Commons (CC BY-SA 2.0) — Dennis van Zuijlekom"
 category: 'Modelos e Algoritmos'
 lang: "pt-br"
 excerpt: "Moonshot AI lança Kimi K3, modelo open-source de 2,8 trilhões de parâmetros, supera Claude Fable 5 no Frontend Code Arena e oferece janela de 1M tokens."

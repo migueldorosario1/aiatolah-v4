@@ -2,6 +2,8 @@
 layout: ../../../layouts/PostLayout.astro
 title: 'Nativ: app open-source roda LLMs de ponta localmente no Mac'
 date: 2026-07-20
+heroImage: "/hero/nativ-app-open-source-roda-llms-de-ponta-localmente-no-mac.jpg"
+hero_credit: "Wikimedia Commons (CC BY-SA 4.0) — iMahesh"
 category: 'Desenvolvimento'
 lang: "pt-br"
 source: 'https://blaizzy.github.io/nativ/'

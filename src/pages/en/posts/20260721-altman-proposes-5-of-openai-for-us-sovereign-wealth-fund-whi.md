@@ -2,6 +2,8 @@
 layout: ../../../layouts/PostLayout.astro
 title: 'Altman proposes 5% of OpenAI for US sovereign wealth fund while launching GPT-5.6'
 date: 2026-07-21
+heroImage: "/hero/altman-propoe-5-da-openai-para-fundo-soberano-dos-eua-ao-lan.jpg"
+hero_credit: "Wikimedia Commons (CC BY 2.0) — TechCrunch"
 category: 'AI Geopolitics'
 lang: "en"
 excerpt: "Sam Altman launches GPT-5.6 with aggressive pricing and suggests giving 5% of OpenAI equity to American citizens via a sovereign wealth fund."

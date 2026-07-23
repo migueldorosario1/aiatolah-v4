@@ -2,6 +2,8 @@
 layout: ../../../layouts/PostLayout.astro
 title: 'Kimi K3 surpasses GPT-5.6 and Opus 4.8 in agentic benchmark, but costs a lot'
 date: 2026-07-22
+heroImage: "/hero/kimi-k3-supera-gpt-5-6-e-opus-4-8-em-benchmark-agentico-mas.jpg"
+hero_credit: "Wikimedia Commons (CC BY-SA 3.0) — Indrajit Das"
 category: 'Models and Algorithms'
 lang: "en"
 excerpt: "Chinese 2.8T parameter model achieves second highest Elo on AA-Briefcase, behind only Claude Fable 5, with a cost of US$10.57 per task."

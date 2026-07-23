@@ -2,6 +2,8 @@
 layout: ../../../layouts/PostLayout.astro
 title: 'Moonshot AI''s Kimi K3: 2.8T Open-Source Model Takes Lead in Front-End Coding'
 date: 2026-07-21
+heroImage: "/hero/kimi-k3-da-moonshot-ai-modelo-open-source-de-2-8t-assume-lid.jpg"
+hero_credit: "Wikimedia Commons (CC BY-SA 2.0) — Dennis van Zuijlekom"
 category: 'Models and Algorithms'
 lang: "en"
 excerpt: "Moonshot AI launches Kimi K3, a 2.8 trillion parameter open-source model, surpassing Claude Fable 5 on Frontend Code Arena with a 1M token context window."

@@ -2,6 +2,8 @@
 layout: ../../../layouts/PostLayout.astro
 title: 'Kimi K3 supera GPT-5.6 e Opus 4.8 em benchmark agêntico, mas custa caro'
 date: 2026-07-22
+heroImage: "/hero/kimi-k3-supera-gpt-5-6-e-opus-4-8-em-benchmark-agentico-mas.jpg"
+hero_credit: "Wikimedia Commons (CC BY-SA 3.0) — Indrajit Das"
 category: 'Modelos e Algoritmos'
 lang: "pt-br"
 excerpt: "Modelo chinês de 2,8T parâmetros alcança segundo maior Elo no AA-Briefcase, atrás apenas de Claude Fable 5, com custo de US$ 10,57 por tarefa."

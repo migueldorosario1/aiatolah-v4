@@ -2,6 +2,8 @@
 layout: ../../../layouts/PostLayout.astro
 title: 'Qwen vs DeepSeek vs GLM: Guia dos Três Gigantes Chineses de IA (2026)'
 date: 2026-07-22
+heroImage: "/hero/qwen-vs-deepseek-vs-glm-guia-dos-tres-gigantes-chineses-de-i.jpg"
+hero_credit: "Wikimedia Commons (CC BY-SA 4.0) — zh:User:O01326"
 category: 'Modelos e Algoritmos'
 lang: "pt-br"
 excerpt: "Comparativo técnico entre Qwen3.6, DeepSeek V4 e GLM-5.2: benchmarks, licenças, preços e recomendações de uso."

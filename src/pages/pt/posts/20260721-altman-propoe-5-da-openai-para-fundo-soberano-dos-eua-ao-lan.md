@@ -2,6 +2,8 @@
 layout: ../../../layouts/PostLayout.astro
 title: 'Altman propõe 5% da OpenAI para fundo soberano dos EUA ao lançar GPT-5.6'
 date: 2026-07-21
+heroImage: "/hero/altman-propoe-5-da-openai-para-fundo-soberano-dos-eua-ao-lan.jpg"
+hero_credit: "Wikimedia Commons (CC BY 2.0) — TechCrunch"
 category: 'Geopolítica da IA'
 lang: "pt-br"
 excerpt: "Sam Altman lança GPT-5.6 com preços agressivos e sugere dividir 5% do equity da OpenAI com cidadãos americanos via fundo soberano."
