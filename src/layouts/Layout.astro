@@ -5,9 +5,14 @@ import NavMenu from '../components/NavMenu.astro';
 interface Props {
 	title: string;
 	description: string;
+	image?: string;
 }
 
-const { title, description } = Astro.props;
+const { title, description, image } = Astro.props;
+
+const imageURL = image
+	? (image.startsWith('http') ? image : new URL(image, 'https://aiatolah.com').href)
+	: undefined;
 
 const pathname = Astro.url.pathname;
 const isPt = pathname.startsWith('/pt');
@@ -40,6 +45,10 @@ const privacyLink = isPt ? "/pt/privacy" : "/privacy";
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
+		<meta property="og:url" content={Astro.url} />
+		{imageURL && <meta property="og:image" content={imageURL} />}
+		{imageURL && <meta property="twitter:card" content="summary_large_image" />}
+		{imageURL && <meta property="twitter:image" content={imageURL} />}
 
 		<!-- Google Analytics GA4 (instalado via agente V4) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3D6BW79H8F"></script>
