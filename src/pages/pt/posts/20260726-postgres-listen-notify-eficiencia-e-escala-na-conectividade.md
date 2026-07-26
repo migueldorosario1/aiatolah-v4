@@ -2,11 +2,12 @@
 layout: ../../../layouts/PostLayout.astro
 title: 'Postgres LISTEN/NOTIFY: Eficiência e Escala na Conectividade'
 date: 2026-07-26
+heroImage: "/hero/postgres-listen-notify-eficiencia-e-escala-na-conectividade.jpg"
+hero_credit: "Imagem conceitual gerada por IA (Fal.ai/Flux)"
 category: 'Hardware e Infra'
 lang: "pt-br"
 excerpt: "Como o LISTEN/NOTIFY do Postgres alcançou 60K de gravações por segundo com latência em milissegundos."
 source: 'https://www.dbos.dev/blog/postgres-listen-notify-scalability'
-heroImage: "/hero/postgres-listen-notify-eficiencia-e-escala-na-conectividade.jpg"
 ---
 Recentemente, o Postgres LISTEN/NOTIFY enfrentou críticas por sua suposta incapacidade de escalar, baseada em um blog popular. Contudo, de acordo com dbos.dev, essas acusações não são completamente precisas. LISTEN/NOTIFY é uma ferramenta poderosa que permite o uso do banco de dados Postgres para notificações duráveis de baixa latência, streams e pub/sub.
 

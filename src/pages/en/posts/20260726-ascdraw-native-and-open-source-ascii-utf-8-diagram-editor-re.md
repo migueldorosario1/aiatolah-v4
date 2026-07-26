@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Free GPLv3 tool for text diagrams, with infinite canvas, layers, and exportation in TXT/JSON/PNG formats."
 source: 'https://github.com/exlee/ascdraw'
 heroImage: "/hero/ascdraw-editor-de-diagramas-ascii-utf-8-nativo-e-open-source.jpg"
+hero_credit: "Photo by Google DeepMind on Pexels"
 ---
 Developer Przemysław Alexander Kamiński (exlee) has released ascdraw, a native ASCII/UTF-8 diagram editor, keyboard-oriented, and with rendering over 120 FPS. The software is distributed under the GPLv3 license, with an optional payment of $9.99 or €9.99 for personal license.
 

@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Wasmtime version 47 brings GC and exceptions by default, expanding the reach of WebAssembly to more programming languages."
 source: 'https://bytecodealliance.org/articles/wasmtime-gc'
 heroImage: "/hero/wasmtime-47-libera-suporte-a-gc-e-excecoes-na-webassembly.jpg"
+hero_credit: "Imagem conceitual gerada por IA (Fal.ai/Flux)"
 ---
 ## Wasmtime 47 Amplia a WebAssembly com Suporte a GC e Exceções
 

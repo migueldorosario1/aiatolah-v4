@@ -2,11 +2,12 @@
 layout: ../../../layouts/PostLayout.astro
 title: 'ascdraw: editor de diagramas ASCII/UTF-8 nativo e open source atinge 120+ FPS'
 date: 2026-07-26
+heroImage: "/hero/ascdraw-editor-de-diagramas-ascii-utf-8-nativo-e-open-source.jpg"
+hero_credit: "Photo by Google DeepMind on Pexels"
 category: 'Desenvolvimento'
 lang: "pt-br"
 excerpt: "Ferramenta gratuita e GPLv3 para diagramas em texto, com canvas infinito, camadas e exportação TXT/JSON/PNG."
 source: 'https://github.com/exlee/ascdraw'
-heroImage: "/hero/ascdraw-editor-de-diagramas-ascii-utf-8-nativo-e-open-source.jpg"
 ---
 O desenvolvedor Przemysław Alexander Kamiński (exlee) lançou o ascdraw, um editor de diagramas ASCII/UTF-8 nativo, orientado ao teclado e com renderização acima de 120 FPS. O software é distribuído sob licença GPLv3, com pagamento opcional de US$ 9,99 ou €9,99 para licença pessoal.
 

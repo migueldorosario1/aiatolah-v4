@@ -2,11 +2,12 @@
 layout: ../../../layouts/PostLayout.astro
 title: 'Wasmtime 47 Libera Suporte a GC e Exceções na WebAssembly'
 date: 2026-07-26
+heroImage: "/hero/wasmtime-47-libera-suporte-a-gc-e-excecoes-na-webassembly.jpg"
+hero_credit: "Imagem conceitual gerada por IA (Fal.ai/Flux)"
 category: 'Desenvolvimento'
 lang: "pt-br"
 excerpt: "Versão 47 do Wasmtime traz GC e exceções por padrão, expandindo o alcance da WebAssembly para mais linguagens de programação."
 source: 'https://bytecodealliance.org/articles/wasmtime-gc'
-heroImage: "/hero/wasmtime-47-libera-suporte-a-gc-e-excecoes-na-webassembly.jpg"
 ---
 ## Wasmtime 47 Amplia a WebAssembly com Suporte a GC e Exceções
 
