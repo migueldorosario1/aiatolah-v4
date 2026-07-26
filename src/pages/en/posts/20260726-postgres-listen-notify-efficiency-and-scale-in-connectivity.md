@@ -7,7 +7,7 @@ lang: "en"
 excerpt: "How Postgres LISTEN/NOTIFY achieved 60K writes per second with millisecond latency."
 source: 'https://www.dbos.dev/blog/postgres-listen-notify-scalability'
 heroImage: "/hero/postgres-listen-notify-eficiencia-e-escala-na-conectividade.jpg"
-hero_credit: "Imagem conceitual gerada por IA (Fal.ai/Flux)"
+hero_credit: "Imagem conceitual gerada por IA (Ideogram)"
 ---
 Recently, Postgres LISTEN/NOTIFY faced criticism for its alleged inability to scale, based on a popular blog. However, according to dbos.dev, these accusations are not entirely accurate. LISTEN/NOTIFY is a powerful tool that allows the use of the Postgres database for durable low-latency notifications, streams, and pub/sub.
 

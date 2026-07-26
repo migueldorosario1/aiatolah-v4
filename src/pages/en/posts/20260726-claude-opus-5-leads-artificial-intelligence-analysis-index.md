@@ -7,7 +7,7 @@ lang: "en"
 excerpt: "Claude Opus 5 achieves the highest score in the Artificial Analysis Intelligence Index, surpassing 170 evaluated models."
 source: 'https://artificialanalysis.ai/models'
 heroImage: "/hero/claude-opus-5-lidera-indice-de-inteligencia-da-artificial-an.jpg"
-hero_credit: "Imagem conceitual gerada por IA (Fal.ai/Flux)"
+hero_credit: "Imagem conceitual gerada por IA (Ideogram)"
 ---
 Claude Opus 5, with adaptive performance and maximum effort, currently occupies the first position in the Artificial Analysis Intelligence Index, achieving a score of 61 out of 170 models analyzed, as reported by artificialanalysis.ai.
 

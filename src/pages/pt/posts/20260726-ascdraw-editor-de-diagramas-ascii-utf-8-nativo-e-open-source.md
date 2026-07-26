@@ -3,7 +3,7 @@ layout: ../../../layouts/PostLayout.astro
 title: 'ascdraw: editor de diagramas ASCII/UTF-8 nativo e open source atinge 120+ FPS'
 date: 2026-07-26
 heroImage: "/hero/ascdraw-editor-de-diagramas-ascii-utf-8-nativo-e-open-source.jpg"
-hero_credit: "Photo by Google DeepMind on Pexels"
+hero_credit: "Imagem conceitual gerada por IA (Ideogram)"
 category: 'Desenvolvimento'
 lang: "pt-br"
 excerpt: "Ferramenta gratuita e GPLv3 para diagramas em texto, com canvas infinito, camadas e exportação TXT/JSON/PNG."

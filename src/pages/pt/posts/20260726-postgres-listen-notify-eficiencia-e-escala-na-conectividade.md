@@ -3,7 +3,7 @@ layout: ../../../layouts/PostLayout.astro
 title: 'Postgres LISTEN/NOTIFY: Eficiência e Escala na Conectividade'
 date: 2026-07-26
 heroImage: "/hero/postgres-listen-notify-eficiencia-e-escala-na-conectividade.jpg"
-hero_credit: "Imagem conceitual gerada por IA (Fal.ai/Flux)"
+hero_credit: "Imagem conceitual gerada por IA (Ideogram)"
 category: 'Hardware e Infra'
 lang: "pt-br"
 excerpt: "Como o LISTEN/NOTIFY do Postgres alcançou 60K de gravações por segundo com latência em milissegundos."
