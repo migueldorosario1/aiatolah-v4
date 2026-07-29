@@ -3,6 +3,7 @@ layout: ../../../layouts/PostLayout.astro
 title: 'GigaToken promete tokenização 1000x mais rápida que HuggingFace'
 date: 2026-07-23
 heroImage: "/hero/gigatoken-promete-tokenizacao-1000x-mais-rapida-que-huggingf.jpg"
+hero_credit: "Photo by RDNE Stock project on Pexels"
 category: 'Desenvolvimento'
 lang: "pt-br"
 excerpt: "Nova biblioteca Rust alcança GB/s em tokenização, superando HuggingFace e tiktoken em benchmarks."

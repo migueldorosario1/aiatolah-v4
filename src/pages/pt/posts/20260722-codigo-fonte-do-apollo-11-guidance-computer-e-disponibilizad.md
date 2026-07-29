@@ -3,6 +3,7 @@ layout: ../../../layouts/PostLayout.astro
 title: 'Código-fonte do Apollo 11 Guidance Computer é disponibilizado no GitHub'
 date: 2026-07-22
 heroImage: "/hero/codigo-fonte-do-apollo-11-guidance-computer-e-disponibilizad.jpg"
+hero_credit: "Photo by Blackcurrant Great on Pexels"
 category: 'Desenvolvimento'
 lang: "pt-br"
 excerpt: "Repositório no GitHub contém o código original do AGC do módulo de comando e lunar, digitalizado pelo MIT Museum."
