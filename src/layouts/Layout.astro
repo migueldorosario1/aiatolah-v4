@@ -81,7 +81,8 @@ const privacyLink = isPt ? "/pt/privacy" : "/privacy";
 					&copy; {new Date().getFullYear()} AIatolah. {isPt ? "Todos os direitos reservados." : "All rights reserved."}
 				</div>
 			</div>
-		</footer>
+							<div class="group-tag">{isPt ? "Um portal do" : "Part of the"} <a href="https://cafezinhomediagroup.vercel.app/" target="_blank" rel="noopener">Cafezinho Media Group</a></div>
+</footer>
 	</body>
 </html>
 
@@ -162,5 +163,19 @@ const privacyLink = isPt ? "/pt/privacy" : "/privacy";
 		.footer-copy {
 			order: 3;
 		}
+	}
+	.group-tag {
+			margin-top: 1.2em;
+			font-size: 0.72em;
+			letter-spacing: 0.04em;
+			opacity: 0.75;
+	}
+	.group-tag a {
+			color: inherit;
+			text-decoration: none;
+			border-bottom: 1px dotted currentColor;
+	}
+	.group-tag a:hover {
+			opacity: 1;
 	}
 </style>
