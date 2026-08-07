@@ -2,7 +2,7 @@
 import Layout from './Layout.astro';
 
 const { frontmatter } = Astro.props;
-const { title, date, category, lang, source, heroImage } = frontmatter;
+const { title, date, category, lang, source, heroImage, hero_legenda, hero_credit } = frontmatter;
 
 const isPt = lang === 'pt-br';
 const backText = isPt ? '← Voltar para Notícias' : '← Back to News';
@@ -60,8 +60,14 @@ const relatedPosts = allPosts
       
       {heroImage && (
         <div class="post-hero-wrapper">
-          <img src={heroImage} alt={title} class="post-hero-image" width="860" height="484" />
+          <img src={heroImage} alt={hero_legenda || title} class="post-hero-image" width="860" height="484" />
         </div>
+      )}
+      {heroImage && (hero_legenda || hero_credit) && (
+        <p class="post-hero-caption">
+          {hero_legenda && <span class="post-hero-caption-text">{hero_legenda}</span>}
+          {hero_credit && <span class="post-hero-credit">{hero_legenda ? ' — ' : ''}{isPt ? 'Foto' : 'Photo'}: {hero_credit}</span>}
+        </p>
       )}
       
       <div class="post-content">
@@ -132,6 +138,18 @@ const relatedPosts = allPosts
 
   .post-hero-wrapper:hover .post-hero-image {
     transform: scale(1.03);
+  }
+
+  .post-hero-caption {
+    margin: -1.25rem 0 0;
+    font-size: 0.85rem;
+    color: #888899;
+    line-height: 1.4;
+  }
+
+  .post-hero-caption-text {
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 600;
   }
 
   .post-article {
