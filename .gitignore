@@ -32,3 +32,4 @@ agent_data/
 .idea/
 .vercel
 Projeto Cafezinho Agentes/
+.env*
