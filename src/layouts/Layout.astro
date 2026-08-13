@@ -6,9 +6,10 @@ interface Props {
 	title: string;
 	description: string;
 	image?: string;
+	noindex?: boolean;
 }
 
-const { title, description, image } = Astro.props;
+const { title, description, image, noindex = false } = Astro.props;
 
 const imageURL = image
 	? (image.startsWith('http') ? image : new URL(image, 'https://www.aiatolah.com').href)
@@ -40,6 +41,7 @@ const privacyLink = isPt ? "/pt/privacy" : "/privacy";
 
 		<!-- SEO & Internacionalização (Googlebot e Programática) -->
 		<link rel="canonical" href={canonicalURL} />
+		{noindex && <meta name="robots" content="noindex,nofollow" />}
 		<link rel="alternate" hreflang="pt-br" href="https://www.aiatolah.com/pt" />
 		<link rel="alternate" hreflang="en" href="https://www.aiatolah.com/en" />
 		<link rel="alternate" hreflang="x-default" href="https://www.aiatolah.com/en" />
