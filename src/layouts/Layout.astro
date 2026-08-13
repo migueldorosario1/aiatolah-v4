@@ -11,8 +11,10 @@ interface Props {
 const { title, description, image } = Astro.props;
 
 const imageURL = image
-	? (image.startsWith('http') ? image : new URL(image, 'https://aiatolah.com').href)
+	? (image.startsWith('http') ? image : new URL(image, 'https://www.aiatolah.com').href)
 	: undefined;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? 'https://www.aiatolah.com').href;
 
 const pathname = Astro.url.pathname;
 const isPt = pathname.startsWith('/pt');
@@ -37,9 +39,10 @@ const privacyLink = isPt ? "/pt/privacy" : "/privacy";
 		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@300;400;600;800;900&display=swap" rel="stylesheet" />
 
 		<!-- SEO & Internacionalização (Googlebot e Programática) -->
-		<link rel="alternate" hreflang="pt-br" href="https://aiatolah.com/pt" />
-		<link rel="alternate" hreflang="en" href="https://aiatolah.com/en" />
-		<link rel="alternate" hreflang="x-default" href="https://aiatolah.com/en" />
+		<link rel="canonical" href={canonicalURL} />
+		<link rel="alternate" hreflang="pt-br" href="https://www.aiatolah.com/pt" />
+		<link rel="alternate" hreflang="en" href="https://www.aiatolah.com/en" />
+		<link rel="alternate" hreflang="x-default" href="https://www.aiatolah.com/en" />
 
 		<!-- Open Graph / Social -->
 		<meta property="og:type" content="website" />

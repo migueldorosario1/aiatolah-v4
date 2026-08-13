@@ -40,6 +40,16 @@ const relatedPosts = allPosts
 
 <Layout title={title} description={`${title} - Editorial analysis from a Global South perspective.`} image={heroImage}>
   <main class="post-container">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": title,
+      "image": heroImage ? [heroImage.startsWith('http') ? heroImage : new URL(heroImage, 'https://www.aiatolah.com').href] : [],
+      "datePublished": new Date(date).toISOString(),
+      "inLanguage": lang ?? 'en',
+      "author": [{ "@type": "Organization", "name": "Aiatolah News", "url": "https://www.aiatolah.com" }],
+      "publisher": { "@type": "Organization", "name": "Aiatolah News", "logo": { "@type": "ImageObject", "url": "https://www.aiatolah.com/favicon.svg" } }
+    })} />
     <article class="post-article glass-panel animate-fade-in">
       <header class="post-header">
         <a href={backLink} class="back-link">{backText}</a>
