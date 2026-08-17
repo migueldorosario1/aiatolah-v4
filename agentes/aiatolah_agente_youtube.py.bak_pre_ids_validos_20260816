@@ -14,17 +14,13 @@ except ImportError:
         return f"[MOCK] Análise de vídeo do YouTube sobre: {prompt[:50]}..."
 
 # Canais estratégicos de IA e Ciência
-# FIX 2026-08-16 (ZCode): 5 dos 6 channel_ids antigos eram INVÁLIDOS (RSS 404) —
-# IDs re-resolvidos via handle oficial + validados por RSS com proxy iProyal.
-# Adicionado Peter Diamandis (pedido do Miguel, 16/08/2026).
 CANAIS_AI = [
-    {"nome": "Lex Fridman", "channel_id": "UCSHZKyawb77ixDdsGog4iWA"},
-    {"nome": "Dwarkesh Patel", "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA"},
-    {"nome": "Andrej Karpathy", "channel_id": "UCXUPKJO5MZQN11PqgIvyuvQ"},
+    {"nome": "Lex Fridman", "channel_id": "UC_QhL74eS6-s04aN_M190nQ"},
+    {"nome": "Dwarkesh Patel", "channel_id": "UCxS9K_iT3Q4F03kM7Zc3c9A"},
+    {"nome": "Andrej Karpathy", "channel_id": "UC7G0B3yO0hE5Z-w1-W1z1zA"},
     {"nome": "DeepLearning.AI", "channel_id": "UCcIXc5mJsHVYTZR1maL5l9w"},
-    {"nome": "Google DeepMind", "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A"},
-    {"nome": "OpenAI", "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"},
-    {"nome": "Peter H. Diamandis / Moonshots", "channel_id": "UCCpNQKYvrnWQNjZprabMJlw"}
+    {"nome": "Google DeepMind", "channel_id": "UCxCO1M9qQeYF9-3k35W6v9A"},
+    {"nome": "OpenAI", "channel_id": "UC78o7sX92w9o1sM01M42gQA"}
 ]
 
 VISTOS_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'agent_data', 'youtube_vistos.json'))
