@@ -8,7 +8,7 @@ excerpt: "Experts achieve superior results with LLMs. Understand why domain know
 source: 'https://www.seangoedecke.com/llms-reward-expertise/'
 heroImage: "/hero/dominio-tecnico-e-a-chave-para-extrair-o-maximo-dos-llms.jpg"
 hero_credit: "Photo by Google DeepMind on Pexels"
-hero_legenda: "Domínio técnico é a chave para extrair o máximo dos LLMs"
+hero_legenda: "Technical expertise is the key to getting the most out of LLMs"
 ---
 The era of LLMs has transformed the relationship between humans and technical knowledge. In the 2010s, skill gaps, such as not knowing how to write CSS, required relying on colleagues or searching the internet for answers. Today, anyone can delegate tasks to a language model and get reasonable results. LLMs have turned everyone into generalists.
 

@@ -8,7 +8,7 @@ excerpt: "Bradbury's tale of an autonomous house in 2026 gets a new reading: the
 source: 'https://short-stories.co/@raybradbury/there-will-come-soft-rains-6k8vr4xxlnmj'
 heroImage: "/hero/a-casa-que-nao-sabia-que-a-humanidade-morreu-4-de-agosto-de.jpg"
 hero_credit: "Photo by 7945425 on Pixabay"
-hero_legenda: "people, woman, man, adult, portrait, dark, side view, face, desktop, escuridão, papel de parede informática, nenhuma pessoa, silhueta, povo, black portrait, black dark"
+hero_legenda: "The House That Didn''t Know Humanity Died: August 4, 2026"
 ---
 On August 4, 2026, science fiction met reality. The short story 'There Will Come Soft Rains' by Ray Bradbury, published in 1950, is set exactly on that date. The story, which depicts an automated house that continues its routine even after the extinction of humanity, takes on even more disturbing contours when we realize that the date has already arrived.
 

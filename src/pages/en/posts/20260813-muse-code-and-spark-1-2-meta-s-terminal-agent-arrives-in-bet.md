@@ -8,7 +8,7 @@ excerpt: "Meta launches Muse Code, a terminal coding agent, powered by the Muse 
 source: 'https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2'
 heroImage: "/hero/muse-code-e-spark-1-2-agente-de-terminal-da-meta-chega-em-be.jpg"
 hero_credit: "Photo by MARCO on Unsplash"
-hero_legenda: "Muse Code e Spark 1.2: agente de terminal da Meta chega em beta"
+hero_legenda: "Muse Code and Spark 1.2: Meta''s terminal agent arrives in beta"
 ---
 Meta has introduced Muse Code (beta), a coding agent that runs in the terminal, and Muse Spark 1.2, the model that powers it. The news was announced on the company's research blog, research.meta.ai, as part of a move towards the AI frontier, with larger and more capable models on the way.
 

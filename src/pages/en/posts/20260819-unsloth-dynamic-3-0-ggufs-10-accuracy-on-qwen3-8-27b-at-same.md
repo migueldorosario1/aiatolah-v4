@@ -8,7 +8,7 @@ excerpt: "Unsloth launches Dynamic v3.0 for Qwen3.8-27B: +10% top-1% accuracy vs
 source: 'https://unsloth.ai/docs/basics/dynamic-3.0-ggufs'
 heroImage: "/hero/unsloth-dynamic-3-0-ggufs-10-precisao-em-qwen3-8-27b-com-mes.jpg"
 hero_credit: "deltaMike via Openverse (by)"
-hero_legenda: "Unsloth Dynamic 3.0 GGUFs: +10% precisão em Qwen3.8-27B com mesmo tamanho"
+hero_legenda: "Unsloth Dynamic 3.0 GGUFs: +10% Accuracy on Qwen3.8-27B at Same Size"
 ---
 Unsloth Dynamic v3.0 has been officially released as the new generation of dynamic quantization, representing a significant improvement over v2.0. The update delivers GGUF quants of the Qwen3.8-27B model that achieve over 10% higher top-1% accuracy compared to all other providers — while maintaining *exactly the same disk size*.
 

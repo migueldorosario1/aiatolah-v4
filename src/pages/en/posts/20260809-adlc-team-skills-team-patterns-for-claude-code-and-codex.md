@@ -8,7 +8,7 @@ excerpt: "Open-source project brings engineering standards to AI agents like Cla
 source: 'https://github.com/tikalk/adlc-team-skills'
 heroImage: "/hero/adlc-team-skills-padroes-de-equipe-para-claude-code-e-codex.jpg"
 hero_credit: "Photo by Google DeepMind on Pexels"
-hero_legenda: "ADLC Team Skills: padrões de equipe para Claude Code e Codex"
+hero_legenda: "ADLC Team Skills: team patterns for Claude Code and Codex"
 ---
 The tikalk/adlc-team-skills repository on GitHub proposes a team layer for AI agents like Claude Code, Codex, OpenCode, Cursor, and GitHub Copilot. The idea is to replace individual 'vibe coding' with a shared, versioned standard.
 

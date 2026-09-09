@@ -8,7 +8,7 @@ excerpt: "NBER study shows that the expansion of the H-1B visa raised income for
 source: 'https://www.nber.org/papers/w35560'
 heroImage: "/hero/h-1b-eleva-renda-de-nativos-e-imigrantes-nos-eua-mostra-nber.jpg"
 hero_credit: "Imagem conceitual gerada por IA (Ideogram)"
-hero_legenda: "H-1B eleva renda de nativos e imigrantes nos EUA, mostra NBER"
+hero_legenda: "H-1B raises income of natives and immigrants in the US, shows NBER"
 ---
 A new study by the National Bureau of Economic Research (NBER) analyzes the long-term effects of H-1B immigration on the US economy. The working paper 35560, released in July 2026, uses an innovative cross-industry design and the expansion of the H-1B visa cap between 1999 and 2003 to identify causal impacts.
 

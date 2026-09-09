@@ -8,7 +8,7 @@ excerpt: "AMD acquires startup Taalas to accelerate AI inference with model-spec
 source: 'https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344'
 heroImage: "/hero/amd-compra-taalas-e-grava-modelos-em-silicio-para-turbinar-i.jpg"
 hero_credit: "Photo by Jimmy Chan on Pexels"
-hero_legenda: "AMD compra Taalas e grava modelos em silício para turbinar inferência"
+hero_legenda: "AMD acquires Taalas and etches models into silicon to boost inference"
 ---
 AMD has announced the acquisition of AI chip startup Taalas, with the goal of accelerating language model inference by etching them directly into silicon. The information was released by theregister.com.
 

@@ -8,7 +8,7 @@ excerpt: "Essay argues that regulation and clinical trials, not intelligence, ho
 source: 'https://www.writingruxandrabio.com/p/intelligence-is-not-the-main-bottleneck'
 heroImage: "/hero/inteligencia-nao-e-o-gargalo-principal-diz-ensaio-sobre-medi.jpg"
 hero_credit: "Imagem conceitual gerada por IA (Ideogram)"
-hero_legenda: "Inteligência não é o gargalo principal, diz ensaio sobre medicina e IA"
+hero_legenda: "Intelligence is not the main bottleneck, says essay on medicine and AI"
 ---
 An essay published on writingruxandrabio.com challenges the dominant belief in Silicon Valley that artificial intelligence, or future AGI, will be the main driver of real-world change. The author, who prefers to identify as a 'naive hamster', recounts a dinner in San Francisco where an employee of an AI lab questioned him with disdain about his work focused on regulatory bottlenecks in medicine.
 

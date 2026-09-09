@@ -8,7 +8,7 @@ excerpt: "MiniMax H3, an open-weights video model, now runs in ComfyUI with ster
 source: 'https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui'
 heroImage: "/hero/minimax-h3-chega-ao-comfyui-pesos-abertos-audio-nativo-e-vid.jpg"
 hero_credit: "Photo by Google DeepMind on Pexels"
-hero_legenda: "MiniMax H3 chega ao ComfyUI: pesos abertos, áudio nativo e vídeo 2K"
+hero_legenda: "MiniMax H3 arrives in ComfyUI: open weights, native audio, and 2K video"
 ---
 ComfyUI announced native support for MiniMax H3 on the same day as its release. The model comes with open weights and promises to run locally even on a 3060 GPU.
 

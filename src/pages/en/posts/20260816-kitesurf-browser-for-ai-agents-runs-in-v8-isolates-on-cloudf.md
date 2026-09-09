@@ -8,7 +8,7 @@ excerpt: "Cloudflare launches Kitesurf, a browser for AI agents in Workers, with
 source: 'https://blog.cloudflare.com/kitesurf/'
 heroImage: "/hero/kitesurf-navegador-para-agentes-de-ia-roda-em-v8-isolates-na.jpg"
 hero_credit: "Wikimedia Commons (CC BY 2.0) — Ministério da Ciência, Tecnologia, Inovações e Comunicações from Brasília - DF,"
-hero_legenda: "'Seminário avalia projetos desenvolvidos em biomas brasileiros'"
+hero_legenda: "Kitesurf: Browser for AI Agents Runs in V8 Isolates on Cloudflare"
 ---
 Cloudflare has announced Kitesurf, a browser specifically built for AI agents, that runs entirely in V8 isolates on the Workers platform. The news was presented in the company's official blog, which details the 12-week journey from conception to the public announcement.
 

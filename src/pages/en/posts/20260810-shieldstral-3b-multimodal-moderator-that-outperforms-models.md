@@ -8,7 +8,7 @@ excerpt: "Mistral releases Shieldstral, a 3B multimodal safety classifier under 
 source: 'https://mistral.ai/news/shieldstral/'
 heroImage: "/hero/shieldstral-moderador-multimodal-de-3b-que-supera-modelos-7x.jpg"
 hero_credit: "Photo by Harpal Singh on Unsplash"
-hero_legenda: "Shieldstral: moderador multimodal de 3B que supera modelos 7x maiores"
+hero_legenda: "Shieldstral: 3B multimodal moderator that outperforms models 7x larger"
 ---
 Mistral AI has introduced Shieldstral, a 3-billion-parameter multimodal safety classifier with open weights. The model promises to outperform guardrails up to seven times larger in text moderation and sets a new state of the art in multimodal moderation.
 

@@ -8,7 +8,7 @@ excerpt: "48-year-old probe gets a reprieve with energy changes; scientific inst
 source: 'https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year'
 heroImage: "/hero/nasa-estende-vida-da-voyager-2-por-mais-um-ano-com-ajuste-de.jpg"
 hero_credit: "Photo by Paul Seling on Pexels"
-hero_legenda: "NASA estende vida da Voyager 2 por mais um ano com ajuste de energia"
+hero_legenda: "NASA Extends Voyager 2''s Life by One More Year with Power Adjustment"
 ---
 NASA has found a way to keep the 48-year-old Voyager 2 probe operational for another year. The mission, which is already traversing interstellar space, would have had to shut down one of its last scientific instruments this year, but a change in power supply has postponed that shutdown.
 

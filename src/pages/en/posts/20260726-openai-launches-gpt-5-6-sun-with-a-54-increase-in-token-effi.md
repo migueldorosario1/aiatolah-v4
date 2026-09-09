@@ -8,24 +8,24 @@ excerpt: "Sam Altman reveals that the new model is 54% more efficient in agentic
 source: 'https://www.cnbc.com/2026/07/09/open-ai-sam-altman-chatgpt-5-6-sol.html'
 heroImage: "/hero/openai-lanca-gpt-5-6-sol-com-ganho-de-54-em-eficiencia-de-to.jpg"
 ---
-A OpenAI lançou nesta quinta-feira sua mais nova série de modelos, GPT-5.6 Sol, Terra e Luna, anunciados no mês passado. O CEO Sam Altman disse à CNBC que o modelo Sol é 54% mais eficiente em tokens em tarefas de codificação agêntica, e que é 'tão bom ou melhor' que os concorrentes no mercado.
+OpenAI launched its newest series of models, GPT-5.6 Sun, Earth, and Luna, this Thursday, which were announced last month. CEO Sam Altman told CNBC that the Sun model is 54% more token-efficient in agentic coding tasks, and that it is 'as good as or better' than competitors in the market.
 
-'Cada empresa agora está pensando em gastos e no valor que obtém em troca da IA, e é isso que realmente queremos fazer', afirmou Altman.
+'Every company is now thinking about spending and the value they get in return for AI, and that's really what we want to do,' Altman said.
 
-O lançamento inicial foi limitado a um 'pequeno grupo de parceiros de confiança' a pedido do governo dos EUA. Altman disse que a empresa trabalhou com o secretário de Comércio Howard Lutnick, o secretário do Tesouro Scott Bessent e o diretor nacional de Cibersegurança dos EUA, Sean Cairncross, no processo de aprovação. Ele descreveu a colaboração como uma 'troca colaborativa', onde o governo realizava testes e levantava problemas para a empresa resolver.
+The initial launch was limited to a 'small group of trusted partners' at the request of the U.S. government. Altman said the company worked with Commerce Secretary Howard Lutnick, Treasury Secretary Scott Bessent, and U.S. National Cyber Director Sean Cairncross on the approval process. He described the collaboration as a 'collaborative exchange,' where the government conducted tests and raised issues for the company to address.
 
-'Se você quer acesso amplo, como nós queremos, e tem modelos poderosos, você realmente precisa ter confiança em suas alegações de segurança, porque senão o mundo vai ficar desconfortável muito rápido', disse Altman.
+'If you want broad access, as we do, and you have powerful models, you really need to have confidence in your safety claims, because otherwise the world is going to get uncomfortable very quickly,' Altman said.
 
-A OpenAI está em conversas preliminares e contínuas com a administração Trump sobre uma possível participação na empresa, conforme noticiado anteriormente pela CNBC. A empresa propôs dar ao governo uma participação de 5%, segundo o Financial Times, mas Altman disse que há 'muitas imprecisões' nessa informação.
+OpenAI is in preliminary and ongoing discussions with the Trump administration about a potential stake in the company, as previously reported by CNBC. The company proposed giving the government a 5% stake, according to the Financial Times, but Altman said there are 'many inaccuracies' in that information.
 
-Altman disse esperar que a abordagem regulatória seja global e que as pessoas possam usar IA sem ter que pensar em segurança. 'Todos terão acesso', afirmou. 'Não é como se os EUA fossem se beneficiar desproporcionalmente aqui.'
+Altman said he expects the regulatory approach to be global and that people can use AI without having to think about safety. 'Everyone will have access,' he said. 'It's not like the U.S. is going to benefit disproportionately here.'
 
-A OpenAI foi fundada como uma empresa de pesquisa sem fins lucrativos em 2015 e explodiu no mainstream com o lançamento do ChatGPT em 2022. A empresa, agora avaliada em US$ 852 bilhões por investidores privados, iniciou uma corrida pela dominância em IA entre rivais como Anthropic, Google, Microsoft, Amazon, Meta e SpaceX, de Elon Musk.
+OpenAI was founded as a nonprofit research company in 2015 and exploded into the mainstream with the launch of ChatGPT in 2022. The company, now valued at $852 billion by private investors, has sparked a race for AI dominance among rivals such as Anthropic, Google, Microsoft, Amazon, Meta, and Elon Musk's SpaceX.
 
-A Meta lançou seu mais novo modelo de IA, Muse Spark 1.1, na quinta-feira, que segundo a empresa é seu 'modelo mais forte para trabalho agêntico e codificação até agora'. A SpaceX, que adquiriu a startup de IA xAI de Musk no início deste ano, lançou um modelo chamado Grok 4.5 na quarta-feira.
+Meta launched its newest AI model, Muse Spark 1.1, on Thursday, which the company says is its 'strongest model for agentic work and coding to date.' SpaceX, which acquired Musk's AI startup xAI earlier this year, launched a model called Grok 4.5 on Wednesday.
 
-A SpaceX realizou o maior IPO da história no mês passado, e OpenAI e Anthropic também se preparam para possíveis estreias massivas no mercado de ações. Ambas as empresas protocolaram confidencialmente seus prospectos junto aos reguladores, mas não divulgaram planos ou prazos oficiais.
+SpaceX conducted the largest IPO in history last month, and OpenAI and Anthropic are also preparing for potential massive stock market debuts. Both companies have confidentially filed their prospectuses with regulators but have not disclosed official plans or timelines.
 
-Altman não confirmou se a OpenAI fará IPO este ano. 'Não sei', disse ele.
+Altman did not confirm whether OpenAI will go public this year. 'I don't know,' he said.
 
-Assista: CEO da OpenAI: modelos open-source chineses estão ficando muito bons.
+Watch: OpenAI CEO: Chinese open-source models are getting very good.

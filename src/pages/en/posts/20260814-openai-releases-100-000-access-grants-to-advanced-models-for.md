@@ -8,7 +8,7 @@ excerpt: "OpenAI grants free access to 100,000 academic researchers to accelerat
 source: 'https://openai.com/research/index/release/'
 heroImage: "/hero/openai-libera-100-mil-bolsas-de-acesso-a-modelos-avancados-p.jpg"
 hero_credit: "Photo by SpaceX on Pexels"
-hero_legenda: "OpenAI libera 100 mil bolsas de acesso a modelos avançados para cientistas"
+hero_legenda: "OpenAI Releases 100,000 Access Grants to Advanced Models for Scientists"
 ---
 OpenAI has announced an initiative that promises to give a leap to scientific research: 100,000 academic researchers will have free access to the company's most advanced AI models. The measure, published on the company's official website, aims to accelerate discoveries, collaboration, and innovation in various areas of knowledge.
 

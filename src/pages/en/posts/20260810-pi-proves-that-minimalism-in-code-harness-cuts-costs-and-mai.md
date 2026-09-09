@@ -8,7 +8,7 @@ excerpt: "Databricks study and Shopify case show that the minimalist Pi harness 
 source: 'https://earendil.com/posts/pi-autoresearch-and-databricks/'
 heroImage: "/hero/pi-prova-que-minimalismo-em-harness-de-codigo-corta-custos-e.jpg"
 hero_credit: "Photo by Antonio Batinić on Pexels"
-hero_legenda: "Pi prova que minimalismo em harness de código corta custos e mantém qualidade"
+hero_legenda: "Pi proves that minimalism in code harness cuts costs and maintains quality"
 ---
 In a market where AI has made code cheaper and tools grow in complexity, the Pi harness chooses the opposite path. With only four native tools and a system prompt of less than 1,000 tokens, it bets on simplicity as a competitive differentiator.
 

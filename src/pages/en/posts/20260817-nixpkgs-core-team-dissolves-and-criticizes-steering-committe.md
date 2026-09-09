@@ -8,7 +8,7 @@ excerpt: "Nixpkgs central team announces dissolution, cites micro-management and
 source: 'https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413'
 heroImage: "/hero/nixpkgs-core-team-se-dissolve-e-critica-governanca-do-steeri.jpg"
 hero_credit: "Photo by Rafael Minguet Delgado on Pexels"
-hero_legenda: "Nixpkgs core team se dissolve e critica governança do Steering Committee"
+hero_legenda: "Nixpkgs core team dissolves and criticizes Steering Committee governance"
 ---
 The Nixpkgs core team has announced its dissolution. The decision, communicated on the project's official forum, ends ten months of work marked by achievements, but also by deep weariness with the NixOS governance structure.
 

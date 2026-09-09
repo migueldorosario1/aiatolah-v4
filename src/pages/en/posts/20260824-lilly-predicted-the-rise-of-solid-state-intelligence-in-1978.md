@@ -8,7 +8,7 @@ excerpt: "In 1978, John C. Lilly predicted the rise of solid-state intelligence 
 source: 'https://kibotronics.net/unlisted/lilly-machines/'
 heroImage: "/hero/lilly-previu-em-1978-a-ascensao-da-inteligencia-de-estado-so.jpg"
 hero_credit: "eevblog via Openverse (by)"
-hero_legenda: "Lilly previu em 1978 a ascensão da inteligência de estado sólido"
+hero_legenda: "Lilly Predicted the Rise of Solid-State Intelligence in 1978"
 ---
 In 1978, scientist John C. Lilly published a disturbing vision in his metaphysical autobiography. In the book 'The Scientist: A Metaphysical Autobiography', he described a message received in his isolation tank. The message, attributed to an entity called K, outlined a future where solid-state machines would surpass humanity.
 

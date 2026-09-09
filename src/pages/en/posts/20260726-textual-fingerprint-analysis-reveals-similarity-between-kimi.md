@@ -8,22 +8,22 @@ excerpt: "Typebulb tool compares models by writing patterns; Kimi (Moonshot) and
 source: 'https://typebulb.com/u/lab/you-re-relatively-right/full'
 heroImage: "/hero/analise-de-impressao-digital-textual-revela-semelhanca-entre.jpg"
 ---
-Uma nova ferramenta de análise linguística desenvolvida pelo Typebulb está chamando a atenção da comunidade de IA. Batizada de 'You're relatively right!', a aplicação usa trigramas de caracteres e n-gramas de palavras para construir um mapa de calor de similaridade entre modelos de linguagem.
+A new linguistic analysis tool developed by Typebulb is drawing attention from the AI community. Dubbed 'You're relatively right!', the application uses character trigrams and word n-grams to build a similarity heatmap between language models.
 
-Segundo o Typebulb, a ferramenta calcula a entropia cruzada entre as distribuições de trigramas de cada modelo, usando um fundo pooled de todos os modelos para suavização. O resultado é uma matriz de distância que revela quais LLMs escrevem de forma mais parecida.
+According to Typebulb, the tool calculates cross-entropy between each model's trigram distributions, using a pooled background of all models for smoothing. The result is a distance matrix that reveals which LLMs write most similarly.
 
-O dado mais comentado até agora é a alta similaridade entre o Kimi, da startup chinesa Moonshot AI, e o Claude, da Anthropic. A análise sugere que os dois modelos compartilham padrões de escolha lexical e estrutura frasal que os distinguem do restante do campo.
+The most commented data so far is the high similarity between Kimi, from Chinese startup Moonshot AI, and Claude, from Anthropic. The analysis suggests that the two models share patterns of lexical choice and phrase structure that distinguish them from the rest of the field.
 
-A ferramenta também identifica 'tell-tales' — termos ou frases que ambos os modelos usam com frequência muito acima da média do resto dos modelos testados. Para ser considerado um 'tell', o termo precisa aparecer em pelo menos três respostas de cada modelo (para evitar viés de uma única resposta) e ter uma taxa de uso conjunta pelo menos duas vezes maior que a taxa do campo.
+The tool also identifies 'tell-tales' — terms or phrases that both models use at a frequency well above the average of the other tested models. To be considered a 'tell', the term must appear in at least three responses from each model (to avoid bias from a single response) and have a combined usage rate at least twice that of the field.
 
-O algoritmo aplica uma correção de 'look-elsewhere' para múltiplas comparações, garantindo que os sinais encontrados sejam estatisticamente robustos. A surpresa combinada — a probabilidade logarítmica de que ambos os modelos atingissem suas contagens dada a taxa do campo — é usada para ranquear os termos mais distintivos.
+The algorithm applies a 'look-elsewhere' correction for multiple comparisons, ensuring that the signals found are statistically robust. The combined surprise — the log probability that both models would achieve their counts given the field rate — is used to rank the most distinctive terms.
 
-A análise usa o tokenizador cl100k_base (o mesmo do GPT-4) para filtrar termos muito comuns: um termo precisa custar mais tokens do que o número de palavras que contém, garantindo que sejam expressões realmente raras e não apenas artigos ou preposições.
+The analysis uses the cl100k_base tokenizer (the same as GPT-4) to filter out very common terms: a term must cost more tokens than the number of words it contains, ensuring they are truly rare expressions and not just articles or prepositions.
 
-O Typebulb disponibilizou o código-fonte da ferramenta em React com TypeScript, permitindo que a comunidade execute suas próprias análises. Os metadados dos modelos — incluindo laboratório de origem e data de lançamento — são carregados de um bloco de dados JSON separado.
+Typebulb has made the tool's source code available in React with TypeScript, allowing the community to run their own analyses. Model metadata — including origin lab and release date — is loaded from a separate JSON data block.
 
-A similaridade entre Kimi e Claude levanta questões sobre influências arquiteturais ou de dados de treinamento. Kimi é um modelo chinês de código aberto, enquanto Claude é um modelo proprietário americano. A ferramenta não especifica a causa da similaridade, apenas a mede.
+The similarity between Kimi and Claude raises questions about architectural or training data influences. Kimi is an open-source Chinese model, while Claude is a proprietary American model. The tool does not specify the cause of the similarity, only measures it.
 
-Para a comunidade open source, a notícia é relevante: mostra que métodos simples de análise estatística de texto podem revelar parentescos entre modelos, ajudando a mapear o ecossistema de LLMs de forma independente.
+For the open-source community, the news is relevant: it shows that simple statistical text analysis methods can reveal relationships between models, helping to map the LLM ecosystem independently.
 
-O Typebulb planeja expandir a ferramenta para incluir mais modelos e métricas adicionais, como análise de bigramas de palavras e distribuições de comprimento de resposta. Por enquanto, o mapa de calor já oferece um retrato fascinante de quem escreve como quem no mundo dos LLMs.
+Typebulb plans to expand the tool to include more models and additional metrics, such as word bigram analysis and response length distributions. For now, the heatmap already offers a fascinating snapshot of who writes like whom in the world of LLMs.

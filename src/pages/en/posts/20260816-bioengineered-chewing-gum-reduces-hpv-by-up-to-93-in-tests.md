@@ -8,7 +8,7 @@ excerpt: "Bioengineered chewing gum reduces HPV by up to 93% and eliminates bact
 source: 'https://www.sciencedaily.com/releases/2026/08/260803080917.htm'
 heroImage: "/hero/goma-de-mascar-bioengenheirada-reduz-hpv-em-ate-93-em-testes.jpg"
 hero_credit: "Photo by Wassily Kandark on Pexels"
-hero_legenda: "Goma de mascar bioengenheirada reduz HPV em até 93% em testes"
+hero_legenda: "Bioengineered chewing gum reduces HPV by up to 93% in tests"
 ---
 Researchers at the University of Pennsylvania have developed a bioengineered chewing gum capable of reducing levels of the human papillomavirus (HPV) by up to 93% in saliva samples. The product also nearly eliminated two bacteria associated with head and neck cancer, according to a study published in the journal Scientific Reports.
 

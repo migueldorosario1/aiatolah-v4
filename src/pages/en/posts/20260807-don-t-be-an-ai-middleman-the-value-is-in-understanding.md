@@ -8,7 +8,7 @@ excerpt: "Passing on AI responses without understanding is useless. Learn to add
 source: 'https://gruhn.me/blog/2026-08-03/'
 heroImage: "/hero/nao-seja-um-intermediario-de-ia-o-valor-esta-em-entender.jpg"
 hero_credit: "Photo by cottonbro studio on Pexels"
-hero_legenda: "Não seja um intermediário de IA: o valor está em entender"
+hero_legenda: "Don''t Be an AI Middleman: The Value Is in Understanding"
 ---
 Have you ever received an AI response copied and pasted into a group or a review request? Developer gruhn.me reports that this is increasingly common, and asks: stop being a 'meat middleman'.
 

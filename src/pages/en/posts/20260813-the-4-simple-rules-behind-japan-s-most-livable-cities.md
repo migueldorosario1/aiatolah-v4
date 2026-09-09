@@ -8,7 +8,7 @@ excerpt: "Japanese cities lead in quality of life with accessible design and eff
 source: 'https://www.bbc.com/travel/article/20260805-four-simple-rules-behind-japans-most-liveable-cities'
 heroImage: "/hero/as-4-regras-simples-por-tras-das-cidades-mais-habitaveis-do.jpg"
 hero_credit: "Photo by ABNER LOBO on Pexels"
-hero_legenda: "As 4 regras simples por trás das cidades mais habitáveis do Japão"
+hero_legenda: "The 4 Simple Rules Behind Japan''s Most Livable Cities"
 ---
 What makes a city genuinely easy to live in? It's not gleaming skyscrapers or famous attractions, but rather the ability to get to work without a car, shop on foot, navigate a train station in a wheelchair, or push a stroller safely along the sidewalk.
 

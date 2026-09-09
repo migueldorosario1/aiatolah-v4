@@ -8,7 +8,7 @@ excerpt: "US jobs report shows loss of 23,000 positions in July, with wages belo
 source: 'https://www.nbcnews.com/business/economy/july-2026-jobs-report-rcna591138'
 heroImage: "/hero/eua-perdem-23-mil-empregos-em-julho-mercado-de-trabalho-esta.jpg"
 hero_credit: "Photo by Arturo Añez. on Pexels"
-hero_legenda: "EUA perdem 23 mil empregos em julho; mercado de trabalho estagna"
+hero_legenda: "US loses 23,000 jobs in July; labor market stagnates"
 ---
 The U.S. economy eliminated 23,000 jobs in July, a sign that the labor market has not yet stabilized after four months of positive growth. The data, released by the Bureau of Labor Statistics (BLS), contradicted the expectations of economists surveyed by Dow Jones, who had predicted the creation of 83,000 jobs.
 

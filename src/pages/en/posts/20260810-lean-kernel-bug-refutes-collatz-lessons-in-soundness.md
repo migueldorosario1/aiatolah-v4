@@ -8,7 +8,7 @@ excerpt: "Ramana Kumar announced a verified refutation of the Collatz conjecture
 source: 'https://lawrencecpaulson.github.io//2026/07/30/Collatz.html'
 heroImage: "/hero/bug-no-kernel-do-lean-refuta-collatz-licoes-de-solidez.jpg"
 hero_credit: "Photo by Daniil Komov on Pexels"
-hero_legenda: "Bug no kernel do Lean refuta Collatz: lições de solidez"
+hero_legenda: "Lean kernel bug refutes Collatz: lessons in soundness"
 ---
 Sensational news: the Collatz conjecture has been refuted. Ramana Kumar proved its negation, with verification in Lean and double-checking by the independent checker Nanoda. Unfortunately, the proof is wrong: it exploited a bug in Lean's kernel, and Nanoda also failed to detect the error.
 

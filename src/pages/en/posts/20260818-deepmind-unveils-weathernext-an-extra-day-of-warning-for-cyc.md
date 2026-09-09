@@ -8,7 +8,7 @@ excerpt: "DeepMind's AI model predicts cyclones with an extra day of accuracy an
 source: 'https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/'
 heroImage: "/hero/deepmind-abre-weathernext-um-dia-extra-de-aviso-para-ciclone.jpg"
 hero_credit: "Photo by Pixabay on Pexels"
-hero_legenda: "DeepMind abre WeatherNext: um dia extra de aviso para ciclones"
+hero_legenda: "DeepMind unveils WeatherNext: an extra day of warning for cyclones"
 ---
 DeepMind has achieved a historic breakthrough in tropical cyclone forecasting, as published in a study in Nature. The WeatherNext model provides, on average, an extra day of warning for these phenomena, which have already caused over 700,000 deaths and US$1.4 trillion in global losses over the past 50 years.
 

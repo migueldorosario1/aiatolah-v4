@@ -8,7 +8,7 @@ excerpt: "Germany records a historic high of 12 billion kWh of solar energy fed 
 source: 'https://solarquarter.com/2026/08/03/germany-records-historic-12-billion-kwh-solar-feed-in-in-july-2026/'
 heroImage: "/hero/alemanha-bate-recorde-12-bilhoes-de-kwh-solares-na-rede-em-j.jpg"
 hero_credit: "Photo by brocoliz on Pixabay"
-hero_legenda: "cold cable, strong beach, forte são mateus, rio de janeiro, cold cable, cold cable, cold cable, cold cable, cold cable"
+hero_legenda: "Germany sets record: 12 billion kWh of solar power fed into the grid in July"
 ---
 Germany achieved a historic milestone in its energy transition in July 2026. For the first time, photovoltaic systems fed 12 billion kilowatt-hours (kWh) of solar electricity into the public grid in a single month, according to an analysis by the Internationales Wirtschaftsforum Regenerative Energien (IWR), based on quarter-hour data from the European network operators' platform ENTSO-E.
 

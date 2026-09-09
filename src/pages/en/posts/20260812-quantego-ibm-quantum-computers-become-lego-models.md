@@ -8,7 +8,7 @@ excerpt: "Quantego project recreates IBM Quantum System One and System Two in LE
 source: 'https://quantego.org/'
 heroImage: "/hero/quantego-computadores-quanticos-da-ibm-viram-modelos-lego.jpg"
 hero_credit: "Photo by Pachon in Motion on Pexels"
-hero_legenda: "Quantego: computadores quânticos da IBM viram modelos LEGO"
+hero_legenda: "Quantego: IBM quantum computers become LEGO models"
 ---
 The Quantego project transforms IBM quantum computers into LEGO models. The initiative, created by Mathilda Lahmann, was first presented in December 2021 and gained prominence in April 2022, according to the website quantego.org.
 

@@ -9,19 +9,19 @@ source: 'https://bytecodealliance.org/articles/wasmtime-gc'
 heroImage: "/hero/wasmtime-47-libera-suporte-a-gc-e-excecoes-na-webassembly.jpg"
 hero_credit: "Imagem conceitual gerada por IA (Ideogram)"
 ---
-## Wasmtime 47 Amplia a WebAssembly com Suporte a GC e Exceções
+## Wasmtime 47 Expands WebAssembly with GC and Exception Support
 
-De acordo com bytecodealliance.org, a versão 47 do Wasmtime, runtime para WebAssembly, agora vem com suporte a Garbage Collection (GC) e exceções ativados por padrão. Essa atualização é um marco na evolução da WebAssembly, permitindo que mais linguagens se beneficiem dessa tecnologia.
+According to bytecodealliance.org, version 47 of Wasmtime, a runtime for WebAssembly, now comes with Garbage Collection (GC) and exception support enabled by default. This update is a milestone in the evolution of WebAssembly, allowing more languages to benefit from this technology.
 
-### O Que é Wasmtime?
+### What is Wasmtime?
 
-Wasmtime é um runtime para WebAssembly conhecido por sua velocidade, segurança e portabilidade. Desenvolvido para ser autônomo, leve e fácil de integrar, o Wasmtime é mantido por uma equipe comprometida com os padrões abertos, participando ativamente na padronização do Wasm.
+Wasmtime is a runtime for WebAssembly known for its speed, security, and portability. Designed to be standalone, lightweight, and easy to integrate, Wasmtime is maintained by a team committed to open standards, actively participating in the standardization of Wasm.
 
-### Wasm GCProposição: Apoio a Linguagens de Alto Nível
+### Wasm GC Proposal: Support for High-Level Languages
 
-Inicialmente, as versões mais antigas da WebAssembly não ofereciam suporte eficiente a linguagens de alto nível com modelo de dados objetos e referências. Isso levou ao acúmulo de coletores de lixo dentro dos binários .wasm, resultando em arquivos maiores e menos eficientes. A proposta Wasm GC resolve esses problemas, permitindo que os programas Wasm definam seus próprios tipos de struct e array, bem como relações de subtipo. Com isso, os programas não precisam lidar com a gestão de vidas das instâncias desses tipos ou desalocá-las manualmente; a responsabilidade fica com o runtime.
+Initially, older versions of WebAssembly did not offer efficient support for high-level languages with object data models and references. This led to the accumulation of garbage collectors within .wasm binaries, resulting in larger and less efficient files. The Wasm GC proposal solves these problems by allowing Wasm programs to define their own struct and array types, as well as subtype relationships. With this, programs do not need to handle the lifetime management of instances of these types or deallocate them manually; the responsibility falls on the runtime.
 
-Isso abre caminho para que mais linguagens possam usar a WebAssembly de forma mais eficiente e simples. Um exemplo disso é a definição de um tipo de nó para uma árvore binária no Wasm:
+This paves the way for more languages to use WebAssembly more efficiently and simply. An example is the definition of a node type for a binary tree in Wasm:
 
 ```
 (rec
@@ -34,26 +34,26 @@ Isso abre caminho para que mais linguagens possam usar a WebAssembly de forma ma
 )
 ```
 
-A criação de novas instâncias pode ser feita com struct.new $node e o acesso aos campos via struct.get $node $key e struct.set $node $left.
+Creating new instances can be done with `struct.new $node` and accessing fields via `struct.get $node $key` and `struct.set $node $left`.
 
-### Proposição de Exceções na Wasm
+### Exception Proposal in Wasm
 
-A proposta de exceções na Wasm tem objetivos semelhantes aos da GC para linguagens que usam exceções, visando um suporte eficiente a exceções na WebAssembly. Sem essa proposta, as toolchains teriam que implementar convenções de chamada personalizadas que retornassem não apenas resultados da função, mas também se a função retornou normalmente ou lançou uma exceção. Com a proposta de exceções, isso se resolve com o uso de construções throw e try/catch, resultando em execução mais rápida e arquivos .wasm menores.
+The exception proposal in Wasm has similar goals to GC for languages that use exceptions, aiming for efficient exception support in WebAssembly. Without this proposal, toolchains would have to implement custom calling conventions that return not only function results but also whether the function returned normally or threw an exception. With the exception proposal, this is resolved using `throw` and `try/catch` constructs, resulting in faster execution and smaller .wasm files.
 
-### Implementação do GC no Wasmtime
+### GC Implementation in Wasmtime
 
-O Wasmtime utiliza um coletor de lixo do estilo Cheney, que copia semi-espaço por meio do tempo. O heap do GC é dividido em duas metades: o 'active' semi-space, onde novos objetos são alocados, e o 'idle' semi-space. Durante a coleta, os objetos ativos são copiados do espaço ocioso para o novo espaço ativo, e todas as referências GC raíz (como referências ativas dentro dos quadros de pilha Wasm) são atualizadas para os novos locais.
+Wasmtime uses a Cheney-style garbage collector, which copies semi-spaces over time. The GC heap is divided into two halves: the 'active' semi-space, where new objects are allocated, and the 'idle' semi-space. During collection, active objects are copied from the idle space to the new active space, and all GC root references (such as active references within Wasm stack frames) are updated to the new locations.
 
-A implementação reutiliza memórias lineares de WebAssembly para implementar e sandboxear o heap do GC. Uma referência a um objeto GC não é um ponteiro nativo, mas um índice de 32 bits no heap de memória linear subjacente do GC. Isso traz benefícios em termos de segurança, velocidade e portabilidade.
+The implementation reuses WebAssembly linear memories to implement and sandbox the GC heap. A reference to a GC object is not a native pointer but a 32-bit index into the underlying GC linear memory heap. This brings benefits in terms of security, speed, and portability.
 
-Para reforçar a confiança na correção do coletor, a equipe estendeu a infraestrutura de fuzzing para testar o GC do Wasm, incluindo ferramentas de geração de programas Wasm que usam GC, bem como ferramentas para detectar corrupção de heap devido a erros no coletor ou em otimizações do compilador.
+To reinforce confidence in the collector's correctness, the team extended the fuzzing infrastructure to test Wasm's GC, including tools for generating Wasm programs that use GC, as well as tools to detect heap corruption due to errors in the collector or compiler optimizations.
 
-### Desempenho e Próximos Passos
+### Performance and Next Steps
 
-O foco inicial foi a correção do coletor, com menos atenção ao desempenho, que ainda não se beneficiou de décadas de engenharia de desempenho como em outros coletores. OWasmtime foi projetado para criar muitos pequenos e descartáveis instâncias Wasm, processando tarefas pequenas antes de serem descartadas. A equipe está trabalhando na extensão das otimizações de análise de alias do compilador com informações de tipo GC.
+The initial focus was on collector correctness, with less attention to performance, which has not yet benefited from decades of performance engineering like other collectors. Wasmtime is designed to create many small, disposable Wasm instances, processing small tasks before being discarded. The team is working on extending the compiler's alias analysis optimizations with GC type information.
 
-O próximo marco é o protótipo de integração de GC com o modelo de componente, o que promoverá linguagens com coleta de lixo aos cidadãos de primeira classe no ecossistema de componentes.
+The next milestone is prototyping GC integration with the component model, which will promote garbage-collected languages to first-class citizens in the component ecosystem.
 
-### Conclusão
+### Conclusion
 
-A equipe do Wasmtime está animada em ter atingido essa etapa importante. Convidam os usuários a testar o suporte a GC e exceções no Wasmtime e compartilhar suas experiências.
+The Wasmtime team is excited to have reached this important milestone. They invite users to test GC and exception support in Wasmtime and share their experiences.

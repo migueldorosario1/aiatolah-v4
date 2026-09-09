@@ -8,7 +8,7 @@ excerpt: "Meta Superintelligence Labs releases Muse Glimmer weights under Apache
 source: 'https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model'
 heroImage: "/hero/meta-lanca-muse-glimmer-modelo-aberto-de-30b-para-agentes-lo.jpg"
 hero_credit: "mrbill via Openverse (by)"
-hero_legenda: "Meta lança Muse Glimmer: modelo aberto de 30B para agentes locais"
+hero_legenda: "Meta launches Muse Glimmer: open 30B model for local agents"
 ---
 Meta Superintelligence Labs has introduced Muse Glimmer, a 30-billion parameter model designed for local agent workflows. The weights have been open-sourced under the Apache 2.0 license, reinforcing the company's tradition of sharing fundamental research.
 

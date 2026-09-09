@@ -8,7 +8,7 @@ excerpt: "New stateless MCP specification simplifies implementation and leads to
 source: 'https://simonwillison.net/2026/Jul/31/stateless-mcp/'
 heroImage: "/hero/mcp-2-0-sem-estado-reacende-interesse-e-inspira-novas-ferram.jpg"
 hero_credit: "Photo by Karolina Grabowska www.kaboompics.com on Pexels"
-hero_legenda: "MCP 2.0 sem estado reacende interesse e inspira novas ferramentas"
+hero_legenda: "Stateless MCP 2.0 reignites interest and inspires new tools"
 ---
 The 2026-07-28 specification of the Model Context Protocol, nicknamed MCP 2.0, arrived on July 28 and is already considered the biggest change to the protocol since its launch. According to Simon Willison, in his blog, this update reignited his personal interest in MCP, which had been overshadowed by alternatives like Skills.
 

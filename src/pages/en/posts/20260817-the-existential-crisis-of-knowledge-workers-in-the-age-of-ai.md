@@ -8,7 +8,7 @@ excerpt: "Knowledge workers question the meaning of work in the face of AI. An a
 source: 'https://www.noemamag.com/why-is-everyone-in-tech-so-sad/'
 heroImage: "/hero/a-crise-existencial-dos-trabalhadores-do-conhecimento-na-era.jpg"
 hero_credit: "Photo by cottonbro studio on Pexels"
-hero_legenda: "A crise existencial dos trabalhadores do conhecimento na era da IA"
+hero_legenda: "The Existential Crisis of Knowledge Workers in the Age of AI"
 ---
 Aaron Horwath, director of AI operations at a creative technology company, observed a revealing scene on a train. A young professional, in a suit and dirty white sneakers, was on the phone talking about EBITDA and expansion margins. But upon disembarking, he took out knitting needles and a ball of pink yarn from his bag: he was making a winter hat for his niece. He explained that he wanted 'to make something.'
 

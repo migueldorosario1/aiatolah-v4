@@ -8,7 +8,7 @@ excerpt: "How 15 years transformed British culture: from Cornetto to Magnum, the
 source: 'https://www.vittlesmagazine.com/p/the-golden-age-of-british-ice-cream'
 heroImage: "/hero/a-era-de-ouro-do-sorvete-britanico-1976-1991.jpg"
 hero_credit: "Photo by Valeria Boltneva on Pexels"
-hero_legenda: "A Era de Ouro do Sorvete Britânico: 1976-1991"
+hero_legenda: "The Golden Age of British Ice Cream: 1976-1991"
 ---
 Between 1976 and 1991, the UK experienced the most fertile era of its ice cream culture. Almost everything you find today in a British freezer was born in this period, according to vittlesmagazine.com, which published an essay by writer Ruby Tandoh on the subject.
 

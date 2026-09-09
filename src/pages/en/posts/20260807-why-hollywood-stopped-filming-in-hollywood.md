@@ -8,7 +8,7 @@ excerpt: "Analysis of the migration of film production from Los Angeles and its 
 source: 'https://www.statsignificant.com/p/how-hollywood-stopped-making-movies'
 heroImage: "/hero/por-que-hollywood-parou-de-filmar-em-hollywood.jpg"
 hero_credit: "Photo by Jose Escribano on Pexels"
-hero_legenda: "Por que Hollywood parou de filmar em Hollywood"
+hero_legenda: "Why Hollywood Stopped Filming in Hollywood"
 ---
 Los Angeles's entertainment industry is going through a tough decade. Labor strikes in 2023 and wildfires in 2025 have intensified fears that film and series production is migrating abroad, threatening Hollywood's technical workers.
 

@@ -8,7 +8,7 @@ excerpt: "Engineer uses LLMs to create interactive animations and learn about ch
 source: 'https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/'
 heroImage: "/hero/aprenda-topicos-complexos-com-simulacoes-geradas-por-ia.jpg"
 hero_credit: "derekGavey via Openverse (by)"
-hero_legenda: "Aprenda tópicos complexos com simulações geradas por IA"
+hero_legenda: "Learn complex topics with AI-generated simulations"
 ---
 Many engineers use generative AI to build proofs of concept, internal tools, or dashboards. But learning something new is also among the most popular uses. The problem, according to developer Laurentiu Gabriel, is that the style of LLM explanations is often too simple and, depending on the number of emojis, even annoying.
 

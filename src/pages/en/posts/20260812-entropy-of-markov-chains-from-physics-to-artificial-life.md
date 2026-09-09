@@ -10,30 +10,30 @@ heroImage: "/hero/entropia-de-cadeias-de-markov-da-fisica-a-vida-artificial.jpg"
 hero_credit: "Photo by Makalu on Pixabay"
 hero_legenda: "spain, andalusia, province of cadiz, cadiz, city, historic center, historic centre, nature, jardines de la plaza de espana, monument to the constitution of 1812, monument to the 1812 constitution, monument, historical, p"
 ---
-A entropia nasceu na termodinâmica do século XIX, mas segue viva em modelos modernos de sistemas complexos. Em um ensaio publicado em chillphysicsenjoyer.substack.com, o autor explora como estender o conceito a cadeias de Markov, usando o modelo de célula de Dyson como laboratório.
+Entropy was born in 19th-century thermodynamics, but it remains alive in modern models of complex systems. In an essay published at chillphysicsenjoyer.substack.com, the author explores how to extend the concept to Markov chains, using Dyson's cell model as a laboratory.
 
-Clausius, em 1865, definiu a entropia ao decompor processos físicos em cadeias de máquinas. Para processos irreversíveis, a entropia sempre aumenta; em processos reversíveis, como o motor ideal de Carnot, a variação é zero. Essa é a segunda lei da termodinâmica.
+Clausius, in 1865, defined entropy by decomposing physical processes into chains of machines. For irreversible processes, entropy always increases; in reversible processes, like Carnot's ideal engine, the variation is zero. This is the second law of thermodynamics.
 
-A entropia não é mensurável diretamente com um termômetro, mas permite calcular grandezas derivadas que são observáveis. O autor já havia especulado sobre 'vida como entropia', inspirado por Schrödinger (1944) e o conceito de negentropia: a vida manteria a ordem local consumindo energia do ambiente.
+Entropy is not directly measurable with a thermometer, but it allows calculating derived quantities that are observable. The author had already speculated about 'life as entropy', inspired by Schrödinger (1944) and the concept of negentropy: life would maintain local order by consuming energy from the environment.
 
-Para dar concretude a essa ideia, o autor recorre a modelos. O modelo de Dyson de uma célula é uma cadeia de Markov que converge para um de três estados de equilíbrio: 'vida', 'morte' e um terceiro. A questão é: como definir entropia nesse contexto de forma consistente com a física?
+To give concreteness to this idea, the author resorts to models. Dyson's model of a cell is a Markov chain that converges to one of three equilibrium states: 'life', 'death', and a third. The question is: how to define entropy in this context consistently with physics?
 
-A saída vem de Boltzmann, que relacionou entropia ao número de estados possíveis de um sistema. Se observamos variáveis macroscópicas como temperatura, pressão e volume, há muitas configurações microscópicas compatíveis. Quanto mais configurações, maior a entropia.
+The way out comes from Boltzmann, who related entropy to the number of possible states of a system. If we observe macroscopic variables like temperature, pressure, and volume, there are many compatible microscopic configurations. The more configurations, the higher the entropy.
 
-Um exemplo: um gás a zero absoluto, com moléculas fixas e paradas, tem poucas configurações possíveis. Já um gás aquecido tem inúmeras. Temperatura alta, entropia alta — não é coincidência que o número de estados também aumente.
+An example: a gas at absolute zero, with fixed and stationary molecules, has few possible configurations. A heated gas, on the other hand, has countless. High temperature, high entropy — it is no coincidence that the number of states also increases.
 
-Boltzmann formalizou isso: a entropia é o logaritmo do número de estados, multiplicado pela constante de Boltzmann. A equação é simples, mas a prova é profunda e ainda desafia matemáticos.
+Boltzmann formalized this: entropy is the logarithm of the number of states, multiplied by Boltzmann's constant. The equation is simple, but the proof is profound and still challenges mathematicians.
 
-Para tornar o exemplo concreto, o autor usa o modelo de ímã de Curie. Nele, elétrons podem estar com spin para cima ou para baixo; a energia depende do alinhamento com o campo magnético. Considere um sistema de 5 átomos com energia E = 1. Isso exige três spins para cima e dois para baixo.
+To make the example concrete, the author uses Curie's magnet model. In it, electrons can have spin up or down; energy depends on alignment with the magnetic field. Consider a system of 5 atoms with energy E = 1. This requires three spins up and two spins down.
 
-As configurações possíveis são combinações de 5 elementos tomados 3 a 3, totalizando 10. Essas 10 configurações formam o macroestado 'E = 1'. Pela fórmula de Boltzmann, a entropia é log₂ 10 = 3,32 bits. Assim, a entropia vira função da energia.
+The possible configurations are combinations of 5 elements taken 3 at a time, totaling 10. These 10 configurations form the macrostate 'E = 1'. By Boltzmann's formula, entropy is log₂ 10 = 3.32 bits. Thus, entropy becomes a function of energy.
 
-Agora, como contar a entropia de uma cadeia de Markov como a de Dyson? No modelo, há N sítios, cada um podendo estar vazio, ativo ou inativo. O sistema converge para um equilíbrio, com probabilidades fixas para cada estado.
+Now, how to count the entropy of a Markov chain like Dyson's? In the model, there are N sites, each can be empty, active, or inactive. The system converges to an equilibrium, with fixed probabilities for each state.
 
-Suponha um equilíbrio com 1/2 de chance de vazio, 1/4 de ativo e 1/4 de inativo. Com 8 sítios, teríamos 4 vazios, 2 ativos e 2 inativos. O número de configurações é dado pelo coeficiente multinomial: fatorial de 8 dividido pelos fatoriais de 4, 2 e 2, resultando em 96.
+Suppose an equilibrium with 1/2 chance of empty, 1/4 of active, and 1/4 of inactive. With 8 sites, we would have 4 empty, 2 active, and 2 inactive. The number of configurations is given by the multinomial coefficient: factorial of 8 divided by the factorials of 4, 2, and 2, resulting in 96.
 
-A entropia é o logaritmo desse número, multiplicado pela constante de Boltzmann. O autor promete explorar em posts futuros como a entropia evolui com a topologia do grafo e em que condições ela aumenta.
+Entropy is the logarithm of this number, multiplied by Boltzmann's constant. The author promises to explore in future posts how entropy evolves with the topology of the graph and under what conditions it increases.
 
-O ensaio agradece a David Pfau pelas discussões e assume que todos os erros são do autor. As referências incluem Clausius (1865) e Schrödinger (1944).
+The essay thanks David Pfau for discussions and assumes that all errors are the author's. References include Clausius (1865) and Schrödinger (1944).
 
-A ponte entre termodinâmica e teoria da informação é um passo elegante para entender fenômenos emergentes como a vida. Modelos simples, como o de Dyson, ajudam a testar ideias abstratas e a dar significado matemático a conceitos vagos.
+The bridge between thermodynamics and information theory is an elegant step to understand emergent phenomena like life. Simple models, like Dyson's, help test abstract ideas and give mathematical meaning to vague concepts.

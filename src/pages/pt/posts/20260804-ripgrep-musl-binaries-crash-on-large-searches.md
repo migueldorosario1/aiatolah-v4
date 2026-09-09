@@ -1,19 +1,19 @@
 ---
 layout: ../../../layouts/PostLayout.astro
-title: 'RipGrep Musl Binaries Crash on Large Searches'
+title: 'Binários Musl do RipGrep Falham em Buscas Grandes'
 date: 2026-08-04
 category: 'Segurança e Ética'
 lang: "pt-br"
-excerpt: "Segfault incidents reported during extensive searches with RipGrep 15.2.0 on x86_64-unknown-linux-musl."
+excerpt: "Incidentes de segfault relatados durante buscas extensivas com RipGrep 15.2.0 em x86_64-unknown-linux-musl."
 source: 'https://github.com/BurntSushi/ripgrep/issues/3494'
 heroImage: "/hero/ripgrep-musl-binaries-crash-on-large-searches.jpg"
 ---
-A recent issue has been reported on GitHub concerning the RipGrep tool, specifically its musl binaries, which occasionally experience segmentation faults (segfaults) during very large-scale searches. According to the user's report on the [RipGrep GitHub repository](https://github.com/BurntSushi/ripgrep/issues/3494), the version of ripgrep in question is 15.2.0, compiled with features like pcre2 and simd support for SSE2, SSSE3, and AVX2.
+Um problema recente foi relatado no GitHub sobre a ferramenta RipGrep, especificamente seus binários musl, que ocasionalmente sofrem falhas de segmentação (segfaults) durante buscas em larga escala. De acordo com o relato do usuário no [repositório GitHub do RipGrep](https://github.com/BurntSushi/ripgrep/issues/3494), a versão do ripgrep em questão é a 15.2.0, compilada com recursos como pcre2 e suporte a SIMD para SSE2, SSSE3 e AVX2.
 
-The user encountered this bug initially in the rg binary bundled with OpenAI Codex, which is identical to the one found in the official RipGrep release. The crash occurs when searching through very large file trees at a high level of concurrency on OpenSUSE Tumbleweed Linux x86_64. The error is traced back to an integrity assertion failure related to heap metadata within MUSL's mallocng during a calloc call from opendir.
+O usuário encontrou esse bug inicialmente no binário rg incluído no OpenAI Codex, que é idêntico ao encontrado na versão oficial do RipGrep. A falha ocorre ao pesquisar em árvores de arquivos muito grandes com alto nível de concorrência no OpenSUSE Tumbleweed Linux x86_64. O erro é rastreado até uma falha de asserção de integridade relacionada aos metadados do heap dentro do mallocng do MUSL durante uma chamada calloc de opendir.
 
-To reproduce the behavior, a Python script named generate_repro_tree.py was provided. This script generates a large tree filled with random files, mimicking the statistics of the repository where the bug was initially discovered. The tree created contains approximately 20GiB of data spread across 1.8 million files. The user then suggests running the rg command in a loop, searching for a string that doesn't exist in the tree, which triggers the SIGSEGV error within about a minute on a system with 24 cores and sufficient RAM.
+Para reproduzir o comportamento, foi fornecido um script Python chamado generate_repro_tree.py. Este script gera uma árvore grande preenchida com arquivos aleatórios, imitando as estatísticas do repositório onde o bug foi inicialmente descoberto. A árvore criada contém aproximadamente 20GiB de dados distribuídos em 1,8 milhão de arquivos. O usuário então sugere executar o comando rg em um loop, procurando por uma string que não existe na árvore, o que dispara o erro SIGSEGV em cerca de um minuto em um sistema com 24 núcleos e RAM suficiente.
 
-The crash results in a coredump with a detailed backtrace that implicates various system calls and Rust standard library functions, ultimately pointing to issues within the opendir system call and the subsequent handling by RipGrep's code.
+A falha resulta em um coredump com um backtrace detalhado que implica várias chamadas de sistema e funções da biblioteca padrão do Rust, apontando em última análise para problemas dentro da chamada de sistema opendir e o subsequente tratamento pelo código do RipGrep.
 
-The user expects RipGrep to operate without such segmentation faults, especially during large-scale searches. This issue, if consistently reproducible, could pose significant problems for users relying on RipGrep for extensive file system searches, potentially leading to data loss or workflow disruptions. The RipGrep community and developers are likely to address this issue in upcoming releases or patches to ensure the stability and reliability of the tool.
+O usuário espera que o RipGrep opere sem tais falhas de segmentação, especialmente durante buscas em larga escala. Este problema, se consistentemente reproduzível, pode representar problemas significativos para usuários que dependem do RipGrep para buscas extensivas no sistema de arquivos, potencialmente levando à perda de dados ou interrupções no fluxo de trabalho. A comunidade e os desenvolvedores do RipGrep provavelmente abordarão este problema em futuras versões ou correções para garantir a estabilidade e confiabilidade da ferramenta.

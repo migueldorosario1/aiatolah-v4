@@ -8,7 +8,7 @@ excerpt: "Dario Amodei fears new hires only care about money, but job pays up to
 source: 'https://finance.yahoo.com/technology/ai/articles/anthropic-ceo-reportedly-worried-hires-160000647.html'
 heroImage: "/hero/anthropic-paga-6x-o-mercado-por-eventos-enquanto-ceo-critica.jpg"
 hero_credit: "Photo by Kampus Production on Pexels"
-hero_legenda: "Anthropic paga 6x o mercado por eventos enquanto CEO critica motivação financeira"
+hero_legenda: "Anthropic pays 6x market for events while CEO criticizes financial motivation"
 ---
 The war for talent in the AI industry has driven salaries to extraordinary levels, with compensation packages unthinkable just a few years ago. According to Axios, this trend worries Anthropic's CEO, Dario Amodei, who reportedly expressed concern that new talent is coming for the money, not the mission.
 

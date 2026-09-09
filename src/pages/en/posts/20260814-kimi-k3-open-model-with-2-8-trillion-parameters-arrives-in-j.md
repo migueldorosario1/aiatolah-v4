@@ -8,7 +8,7 @@ excerpt: "Kimi K3, from Moonshot AI, is the first open source model in the 3 tri
 source: 'https://platform.kimi.ai/docs/guide/kimi-k3-quickstart'
 heroImage: "/hero/kimi-k3-modelo-aberto-de-2-8-trilhoes-de-parametros-chega-em.jpg"
 hero_credit: "Photo by Steve A Johnson on Pexels"
-hero_legenda: "Kimi K3: modelo aberto de 2,8 trilhões de parâmetros chega em julho"
+hero_legenda: "Kimi K3: open model with 2.8 trillion parameters arrives in July"
 ---
 Moonshot AI has unveiled the Kimi K3, its most capable flagship model to date, with 2.8 trillion parameters. The announcement was made on the company's official platform, platform.kimi.ai, which highlights the innovative architecture and the promise of releasing the weights by July 27, 2026.
 

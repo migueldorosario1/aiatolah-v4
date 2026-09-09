@@ -8,7 +8,7 @@ excerpt: "New RFC 10023 standard allows announcing domain sale via DNS without t
 source: 'https://specification.website/spec/foundations/for-sale-dns/'
 heroImage: "/hero/dominio-a-venda-agora-o-dns-avisa-com-registro-for-sale.jpg"
 hero_credit: "Photo by Markus Winkler on Pexels"
-hero_legenda: "Domínio à venda? Agora o DNS avisa com registro _for-sale"
+hero_legenda: "Domain for sale? Now DNS alerts with _for-sale record"
 ---
 Selling a domain has always been a guessing game. The interested party has no way to know if the owner is willing to sell, and the owner doesn't receive the right offers. Now, a new standard promises to change that: the `_for-sale` DNS record.
 

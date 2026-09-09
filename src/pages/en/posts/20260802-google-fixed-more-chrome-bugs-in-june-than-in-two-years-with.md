@@ -8,36 +8,36 @@ excerpt: "With AI agents, Google fixed 1072 Chrome security bugs in two months, 
 source: 'https://blog.google/security/chrome-stronger-with-every-update/'
 heroImage: "/hero/google-corrigiu-mais-bugs-do-chrome-em-junho-do-que-em-dois.jpg"
 ---
-O Google anunciou que, graças ao uso intensivo de inteligência artificial, corrigiu mais bugs de segurança no Chrome em junho de 2026 do que nos dois anos anteriores. A informação foi divulgada no blog oficial da empresa, blog.google.
+Google announced that, thanks to the intensive use of artificial intelligence, it fixed more Chrome security bugs in June 2026 than in the previous two years. The information was released on the company's official blog, blog.google.
 
-A empresa afirma que está vivendo uma mudança massiva na indústria de segurança de software. Modelos de linguagem de grande escala (LLMs) estão permitindo a descoberta automatizada de vulnerabilidades em uma escala sem precedentes, superando os limites da expertise humana.
+The company states that it is experiencing a massive shift in the software security industry. Large language models (LLMs) are enabling automated discovery of vulnerabilities at an unprecedented scale, surpassing the limits of human expertise.
 
-O objetivo é usar modelos de IA para encontrar e corrigir centenas de bugs de segurança mais rápido do que nunca. O Google detalhou como está fazendo isso em três frentes: encontrar, triar e corrigir vulnerabilidades.
+The goal is to use AI models to find and fix hundreds of security bugs faster than ever. Google detailed how it is doing this on three fronts: finding, triaging, and fixing vulnerabilities.
 
-## Encontrando vulnerabilidades
+## Finding vulnerabilities
 
-A equipe de segurança do Chrome usa LLMs há anos. Em 2023, desenvolveram formas de aumentar a cobertura de fuzzing. Em 2024, trabalharam com o Project Zero no Naptime. Em 2025, colaboraram com DeepMind e Project Zero no Big Sleep, um agente que encontrou bugs no motor V8 e na stack gráfica.
+The Chrome security team has used LLMs for years. In 2023, they developed ways to increase fuzzing coverage. In 2024, they worked with Project Zero on Naptime. In 2025, they collaborated with DeepMind and Project Zero on Big Sleep, an agent that found bugs in the V8 engine and the graphics stack.
 
-No início de 2026, construíram um harness de agente usando Gemini para encontrar vulnerabilidades em todo o código do Chrome, com maior eficiência e menos falsos positivos. Um dos bugs encontrados foi uma sandbox escape que permitia a um renderizador comprometido enganar o navegador para ler arquivos locais — um bug que sobreviveu por mais de 13 anos no código.
+In early 2026, they built an agent harness using Gemini to find vulnerabilities across Chrome's codebase, with greater efficiency and fewer false positives. One of the bugs found was a sandbox escape that allowed a compromised renderer to trick the browser into reading local files — a bug that survived for more than 13 years in the code.
 
-O Google melhorou o harness adicionando suporte a múltiplos modelos, construindo uma base de conhecimento com CVEs e histórico do Git, incentivando arquivos SECURITY.md, adicionando um agente 'crítico' e rodando os modelos várias vezes para lidar com a não-determinismo.
+Google improved the harness by adding support for multiple models, building a knowledge base with CVEs and Git history, encouraging SECURITY.md files, adding a 'critic' agent, and running the models multiple times to handle non-determinism.
 
-Tudo isso foi feito com segurança: os modelos analisam código estritamente em repouso, em máquinas sem acesso à internet, com allowlists rígidas e sem modo irrestrito.
+All of this was done securely: the models analyze code strictly at rest, on machines without internet access, with strict allowlists and no unrestricted mode.
 
-## Triagem automatizada
+## Automated triage
 
-A triagem de relatórios de segurança, que antes levava de 5 a 30 minutos por bug, agora é automatizada com IA. O processo tem quatro fases: filtrar ruído, reproduzir bugs, enriquecer com metadados e atribuir automaticamente.
+Security report triage, which previously took 5 to 30 minutes per bug, is now automated with AI. The process has four phases: filtering noise, reproducing bugs, enriching with metadata, and automatic assignment.
 
-O Google estima que isso economiza centenas de horas de trabalho por mês.
+Google estimates this saves hundreds of hours of work per month.
 
-## Corrigindo bugs em escala
+## Fixing bugs at scale
 
-Para corrigir bugs em escala, o Google usa workflows multi-agente: um agente de correção gera múltiplas correções candidatas, um agente crítico avalia a melhor, e agentes de teste escrevem testes. Isso imita um processo de revisão de código.
+To fix bugs at scale, Google uses multi-agent workflows: a fix agent generates multiple candidate fixes, a critic agent evaluates the best one, and test agents write tests. This mimics a code review process.
 
-O resultado: nas últimas duas versões do Chrome, 149 e 150, foram corrigidos 1072 bugs de segurança, superando o total dos 23 marcos anteriores combinados.
+The result: in the last two Chrome versions, 149 and 150, 1072 security bugs were fixed, surpassing the total of the previous 23 milestones combined.
 
-O Google também integrou ferramentas como BigSleep e CodeMender ao sistema de integração contínua, rodando a cada 24 horas. Em maio, os resultados foram significativos.
+Google also integrated tools like BigSleep and CodeMender into the continuous integration system, running every 24 hours. In May, the results were significant.
 
-A empresa também viu um aumento nos relatórios de bugs externos: em março, recebeu mais relatórios do que em todo o ano de 2025. Por isso, ajustou o programa VRP para focar em submissões que complementem a descoberta interna.
+The company also saw an increase in external bug reports: in March, it received more reports than in all of 2025. Therefore, it adjusted the VRP program to focus on submissions that complement internal discovery.
 
-Com essa abordagem, o Google reforça seu compromisso com a segurança do Chrome, usando IA para estar sempre um passo à frente dos atacantes.
+With this approach, Google reinforces its commitment to Chrome security, using AI to stay one step ahead of attackers.

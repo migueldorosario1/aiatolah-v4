@@ -8,7 +8,7 @@ excerpt: "Project migrates Wirth's Oberon System to RISC-V, using OP2 compiler a
 source: 'https://github.com/rochus-keller/OberonSystem/tree/op2-rv32'
 heroImage: "/hero/oberon-system-migra-de-risc-5-para-risc-v-em-novo-projeto.jpg"
 hero_credit: "Photo by Tanha Tamanna  Syed on Pexels"
-hero_legenda: "Oberon System migra de RISC-5 para RISC-V em novo projeto"
+hero_legenda: "Oberon System migrates from RISC-5 to RISC-V in new project"
 ---
 A developer published on GitHub a version of the Project Oberon System migrated from the RISC-5 processor to the RISC-V architecture. The work uses the OP2 compiler with RV32 backend and a virtual machine emulator based on rv32emu, reproducing the memory map described by Niklaus Wirth in his book.
 

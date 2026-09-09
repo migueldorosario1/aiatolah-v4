@@ -8,7 +8,7 @@ excerpt: "Antoine Mayerowitz uses Mario Kart 8 to explain the Pareto frontier an
 source: 'https://www.mayerowitz.io/blog/mario-meets-pareto'
 heroImage: "/hero/pareto-no-mario-kart-como-a-matematica-define-o-melhor-kart.jpg"
 hero_credit: "Photo by L'oeil à deux Vanessa et cédric on Pexels"
-hero_legenda: "Pareto no Mario Kart: como a matemática define o melhor kart"
+hero_legenda: "Pareto in Mario Kart: how mathematics defines the best kart"
 ---
 Choosing driver, car, tires, and glider in Mario Kart 8 is not just style: it's as crucial as racing skill. With dozens of options for each element and distinct stats, the number of possible combinations is gigantic.
 

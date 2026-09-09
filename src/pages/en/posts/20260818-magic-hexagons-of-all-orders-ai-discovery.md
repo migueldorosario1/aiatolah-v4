@@ -8,7 +8,7 @@ excerpt: "Researcher uses AI to find magic hexagons of all orders up to 21, brea
 source: 'https://gukov.dev/math/2026/08/02/new-magic-hexagons.html'
 heroImage: "/hero/hexagonos-magicos-de-todas-as-ordens-descoberta-com-ia.jpg"
 hero_credit: "Photo by Aedrian Salazar on Unsplash"
-hero_legenda: "Hexágonos mágicos de todas as ordens: descoberta com IA"
+hero_legenda: "Magic hexagons of all orders: AI discovery"
 ---
 The number 19 has always been special to mathematicians: it is a twin prime and, until recently, it was the number of cells in the only non-trivial normal magic hexagon. But that exclusivity is over.
 

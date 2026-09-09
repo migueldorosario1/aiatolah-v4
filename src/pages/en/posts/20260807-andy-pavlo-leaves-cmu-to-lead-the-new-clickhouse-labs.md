@@ -8,7 +8,7 @@ excerpt: "CMU database professor Andy Pavlo joins ClickHouse to found ClickHouse
 source: 'https://clickhouse.com/blog/andy-pavlo-joins-clickhouse'
 heroImage: "/hero/andy-pavlo-deixa-a-cmu-para-liderar-o-novo-clickhouse-labs.jpg"
 hero_credit: "Photo by Brett Sayles on Pexels"
-hero_legenda: "Andy Pavlo deixa a CMU para liderar o novo ClickHouse Labs"
+hero_legenda: "Andy Pavlo leaves CMU to lead the new ClickHouse Labs"
 ---
 Professor Andy Pavlo, a world reference in database systems, announced that he is joining ClickHouse to create and lead ClickHouse Labs, a new research group at the company. The news was shared on ClickHouse's official blog.
 
