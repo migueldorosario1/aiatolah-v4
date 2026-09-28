@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Chinese model with 2.8 trillion parameters rivals GPT-5.6 and Opus 4.8, sending AI and semiconductor stocks down."
 source: 'https://www.youtube.com/watch?v=jPbN5m2iQ_M'
 heroImage: "/hero/youtube-jPbN5m2iQ_M.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jPbN5m2iQ_M" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 

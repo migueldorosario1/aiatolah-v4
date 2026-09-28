@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Discover how AI is revolutionizing personal computing, enabling the creation of highly personalized applications without the need to scale."
 source: 'https://www.ajwaxman.com/writing/software-for-one'
 heroImage: "/hero/o-renascimento-da-computacao-pessoal-com-a-ajuda-da-intelige.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 In 2020, Robin Sloan shared his experience with BoopSnoop, a messaging app he developed for his family, and considered it a success that only four people downloaded it. He argued that an app can be like a home-cooked meal: it doesn't need to have a large scale or many users, what matters is serving the people you love.
 

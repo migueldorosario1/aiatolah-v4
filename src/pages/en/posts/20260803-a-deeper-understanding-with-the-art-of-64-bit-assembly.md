@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Understand the inner workings of programs with the book 'The Art of 64-bit Assembly.'"
 source: 'https://nostarch.com/art-64-bit-assembly-v2'
 heroImage: "/hero/a-profundidade-de-compreensao-com-the-art-of-64-bit-assembly.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 In the search for an authentic understanding of how programs work, 'The Art of 64-bit Assembly', according to nostarch.com, offers an intensive assembly course for experienced assembly developers. The book unveils the mysteries of low-level program execution, focusing on generating assembly code for 64-bit Windows.
 

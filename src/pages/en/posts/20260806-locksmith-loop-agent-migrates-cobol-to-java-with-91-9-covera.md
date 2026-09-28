@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Agentic method validates COBOL-to-Java migration with deterministic oracle, achieving 91.9% coverage in a real case."
 source: 'https://arxiv.org/abs/2607.28271'
 heroImage: "/hero/agente-locksmith-loop-migra-cobol-para-java-com-91-9-de-cobe.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 Migrating legacy COBOL programs to Java is one of the biggest challenges in software engineering. The lack of test data and the difficulty of validating all edge cases make the process slow and risky.
 

@@ -6,6 +6,7 @@ category: 'Korea AI'
 lang: "en"
 source: 'https://v.daum.net/v/GivsAWe45I'
 heroImage: "/hero/samsung-electronics-is-really-over-tsmc-pouring-80.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

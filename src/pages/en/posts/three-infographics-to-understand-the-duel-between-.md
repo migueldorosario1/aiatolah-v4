@@ -6,6 +6,7 @@ category: 'Europe Tech'
 lang: "en"
 source: 'https://www.bfmtv.com/tech/intelligence-artificielle/trois-infographies-pour-comprendre-le-duel-entre-la-chine-et-les-etats-unis-autour-des-puces-electroniques-au-coeur-de-la-guerre-de-l-ia_AN-202512090760.html'
 heroImage: "/hero/three-infographics-to-understand-the-duel-between-.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

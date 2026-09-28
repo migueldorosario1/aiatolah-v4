@@ -6,6 +6,7 @@ category: 'Korea AI'
 lang: "en"
 source: 'https://www.chosun.com/international/international_general/2026/07/10/R4YAR3R3AFGQTL3VBTNCS2LZ4Y/'
 heroImage: "/hero/china-blocks-helium-this-time-bans-export-of-key-s.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

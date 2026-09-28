@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "AMD MI355X runs Kimi K3 at 952 tok/s per node, beating B300 in performance per dollar. Wafer.ai details optimizations."
 source: 'https://www.wafer.ai/blog/kimi-k3-mi355x'
 heroImage: "/hero/kimi-k3-no-mi355x-amd-vence-b300-em-desempenho-por-dolar.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 AMD continues to prove its value in performance per dollar. According to wafer.ai, the MI355X runs the Kimi K3 model at about 952 tokens per second per node, surpassing NVIDIA's competition in cost efficiency.
 

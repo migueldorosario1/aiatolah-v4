@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Discover how using the null command and parameter expansion in the shell can improve your efficiency."
 source: 'https://refp.se/articles/your-shell-and-the-magic-colon'
 heroImage: "/hero/o-poderoso-ponto-e-virgula-no-shell-scripting-eficiencia-e-p.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 In the realm of terminals, a simple semicolon (:) plays a crucial role that many may underestimate. In situations where the script requires arguments, checking for mandatory arguments is a routine task. Traditionally, this is done with an if-statement, but there is a more elegant way that uses the semicolon to save lines of code:
 

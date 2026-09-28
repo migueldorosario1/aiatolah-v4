@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Project runs an autoregressive BitNet model on a 1980 BBC Micro, with 13KB of weights and inference code in C."
 source: 'https://mattbeton.com/blog/bitnet-6502.html'
 heroImage: "/hero/bitnet-em-um-bbc-micro-modelo-de-linguagem-em-13kb-de-pesos.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 The MOS 6502, an 8-bit processor released in 1975, was the brain of legendary machines like the BBC Micro and the Apple II. Now, a bold project has managed to make this chip run a modern autoregressive language model, with weights quantized to just 13KB.
 

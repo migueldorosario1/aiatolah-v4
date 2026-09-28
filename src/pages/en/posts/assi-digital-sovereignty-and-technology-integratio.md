@@ -6,6 +6,7 @@ category: 'Southeast Asia'
 lang: "en"
 source: 'https://sumbar.antaranews.com/berita/761908/assi-kedaulatan-digital-integrasi-teknologi-perkuat-ekosistem-digital-nasional'
 heroImage: "/hero/assi-digital-sovereignty-and-technology-integratio.jpg"
+hero_credit: "Europäische Kommission - Audiovisueller Dienst, CE - Service audiovisuel, EC - Audiovisual Service, Vitaliy Nosach, FACTSTORY / Wikimedia Commons (CC BY 4.0)"
 noHome: true
 ---
 

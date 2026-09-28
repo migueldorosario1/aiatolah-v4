@@ -6,6 +6,7 @@ category: 'Southeast Asia'
 lang: "en"
 source: 'https://indonesiadevelopmentforum.com/id/2022/article/detail/179854-pacu-investasi-industri-semikonduktor-untuk-penuhi-kebutuhan-chip'
 heroImage: "/hero/semiconductor-industry-investment-to-meet-chip-nee.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

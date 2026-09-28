@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "GitHub admin token discovered in Hanwha security camera firmware, exposing hundreds of repositories."
 source: 'https://hhh.hn/hanwha-github-token/'
 heroImage: "/hero/seguranca-em-cameras-de-seguranca-questionada-apos-vazamento.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 Recently, concerns about the security of security cameras have been put to the test when a significant vulnerability was revealed. With AXIS promoting the execution of Linux applications on their cameras, the focus intensified on vulnerability and credential management. An incident involving Hanwha Vision, a company new to many, showed the gravity of the situation.
 

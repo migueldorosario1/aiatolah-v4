@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Moonshot AI's hybrid linear attention architecture outperforms full attention in all scenarios, with efficiency gains and open source."
 source: 'https://arxiv.org/abs/2510.26692'
 heroImage: "/hero/kimi-linear-supera-atencao-total-com-75-menos-cache-kv.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 Researchers from Moonshot AI have published on arxiv.org the Kimi Linear, a hybrid linear attention architecture that, for the first time, outperforms full attention in fair comparisons across multiple scenarios — including short, long contexts, and scaling regimes with reinforcement learning.
 

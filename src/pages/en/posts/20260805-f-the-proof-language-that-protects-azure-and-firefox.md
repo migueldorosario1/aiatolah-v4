@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Meet F*, the open source language from Microsoft Research and Inria used in verified cryptography in Azure, Firefox, and Linux."
 source: 'https://fstar-lang.org/'
 heroImage: "/hero/f-a-linguagem-de-prova-que-protege-o-azure-e-o-firefox.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 F* (pronounced 'F star') is a proof-oriented programming language, general-purpose, that combines dependent types with proof automation via SMT and interactive tactics. It supports both purely functional and effectful programming.
 

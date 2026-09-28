@@ -6,6 +6,7 @@ category: 'Europe Tech'
 lang: "en"
 source: 'https://www.lemonde.fr/en/economy/article/2025/05/23/ai-race-us-china-chip-war-heats-up_6741573_19.html'
 heroImage: "/hero/ai-race-chip-war-intensifies--le-monde.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

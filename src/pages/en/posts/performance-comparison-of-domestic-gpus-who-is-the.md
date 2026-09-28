@@ -6,6 +6,7 @@ category: 'China Tech'
 lang: "en"
 source: 'https://zhuanlan.zhihu.com/p/1952634570550780313'
 heroImage: "/hero/performance-comparison-of-domestic-gpus-who-is-the.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

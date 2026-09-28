@@ -6,6 +6,7 @@ category: 'Southeast Asia'
 lang: "en"
 source: 'https://channel9.id/industri-semikonduktor-ri-dilirik-investor-as-hingga-china-nilai-investasi-tembus-us26-miliar/'
 heroImage: "/hero/indonesia-s-semiconductor-industry-attracts-us-and.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

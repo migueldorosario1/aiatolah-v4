@@ -6,6 +6,7 @@ category: 'China Tech'
 lang: "en"
 source: 'https://www.jiemian.com/article/14035168.html'
 heroImage: "/hero/top-20-domestic-gpu-rankings-revealed-leading-ente.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

@@ -6,6 +6,7 @@ category: 'Korea AI'
 lang: "en"
 source: 'https://www.g-enews.com/article/Global-Biz/2026/06/202606160628354917fbbec65dfb_1'
 heroImage: "/hero/google-considers-samsung-for-next-gen-ai-chip-prod.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

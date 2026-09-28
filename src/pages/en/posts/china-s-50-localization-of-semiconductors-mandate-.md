@@ -6,6 +6,7 @@ category: 'Korea AI'
 lang: "en"
 source: 'https://www.g-enews.com/article/Global-Biz/2026/04/202604100552336387fbbec65dfb_1'
 heroImage: "/hero/china-s-50-localization-of-semiconductors-mandate-.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

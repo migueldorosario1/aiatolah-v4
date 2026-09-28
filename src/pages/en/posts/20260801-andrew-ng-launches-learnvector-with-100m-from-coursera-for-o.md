@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "LearnVector, Andrew Ng's new company, receives $100 million from Coursera to create one-on-one learning experiences with AI, with products expected by earl"
 source: 'https://learnvector.ai/'
 heroImage: "/hero/andrew-ng-lanca-learnvector-com-us-100-mi-da-coursera-para-t.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 Andrew Ng, co-founder of Coursera and Google Brain, announced LearnVector, a new AI company focused on personalized learning. The initiative received a $100 million investment from Coursera.
 

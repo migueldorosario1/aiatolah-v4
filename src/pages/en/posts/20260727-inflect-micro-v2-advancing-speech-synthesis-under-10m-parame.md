@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Inflect-Micro-v2 offers full English speech synthesis with a fixed model, capable of handling long texts and running on CPU or CUDA."
 source: 'https://huggingface.co/owensong/Inflect-Micro-v2'
 heroImage: "/hero/inflect-micro-v2-avancando-na-sintese-de-voz-sob-10m-paramet.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 The Inflect-Micro-v2 model, released by Hugging Face, represents a significant advancement in text-to-speech synthesis, presenting a complete model with fewer than 10 million parameters. With a total of 9,356,513 parameters and a size of 37.53 MB in the FP32 version, this model offers a mono output at 24 kHz, highlighting its efficiency and data compression.
 

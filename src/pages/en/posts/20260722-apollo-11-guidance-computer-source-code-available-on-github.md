@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "GitHub repository contains the original AGC code for the command and lunar modules, digitized by the MIT Museum."
 source: 'https://github.com/chrislgarry/Apollo-11'
 heroImage: "/hero/codigo-fonte-do-apollo-11-guidance-computer-e-disponibilizad.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 The 'Apollo-11' repository on GitHub, maintained by Chris L. Garry, provides the original source code of the Apollo Guidance Computer (AGC) for the command module (Comanche055) and lunar module (Luminary099). The material was digitized by the Virtual AGC and the MIT Museum.
 

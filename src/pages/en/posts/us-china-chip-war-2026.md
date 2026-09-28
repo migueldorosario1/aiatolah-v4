@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Despite sweeping US export controls on advanced semiconductors, China's AI industry has accelerated — not slowed. Here's how Beijing's strategy is working."
 source: "https://www.semiconductordigest.com"
 heroImage: "/hero/chip-war.png"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 
 # The Chip War in 2026: How China Is Routing Around US Semiconductor Sanctions

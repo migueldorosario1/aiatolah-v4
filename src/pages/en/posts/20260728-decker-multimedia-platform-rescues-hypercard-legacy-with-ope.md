@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Decker is an open source multimedia platform that rescues the spirit of HyperCard, with Lil language and ditherpunk aesthetic."
 source: 'https://beyondloom.com/decker/'
 heroImage: "/hero/decker-plataforma-multimidia-resgata-legado-do-hypercard-com.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 A new multimedia platform promises to rescue the creative spirit of HyperCard and the classic MacOS look. This is Decker, an environment for creating and sharing interactive documents with sound, images, hypertext, and scripts.
 

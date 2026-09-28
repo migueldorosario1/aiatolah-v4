@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "On July 27, 2026, BMW began displaying Spider-Man advertisements on car displays."
 source: 'https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising'
 heroImage: "/hero/bmw-introduz-anuncio-de-filme-nos-paineis-dos-carros.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 On July 27, 2026, BMW began delivering full-screen advertisements for the film Spider-Man: Brand New Day to the Control Display (the car's main screen) of customer BMW vehicles, placing a third-party advertisement in cars that owners had already purchased.[1][2] The advertisement appears as a banner when starting the car, and the driver can click to play a full-screen animation with background music and ambient lighting display, and it has been available in over 70 markets since July 27, 2026, scheduled to end on August 10, 2026, in properly equipped vehicles running BMW Operating System 7, 8, 8.5, 9 or OS X built after July 2020.[1][3] In December 2023, BMW's Senior Vice President of the connected company, Stephan Durach, had officially declared that the company would not sell screen space in the car to play a commercial, calling the car private space.[4] BMW described the animation to The Autopian as part of a broader brand partnership with the film, the automotive part of a promotional campaign by Sony Pictures that Deadline evaluated at a record worldwide media value of $309 million.[2][5]
 

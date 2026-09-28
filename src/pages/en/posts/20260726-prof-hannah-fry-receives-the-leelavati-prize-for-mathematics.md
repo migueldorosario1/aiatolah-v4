@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Hannah Fry honored at the International Mathematicians Conference for mathematics popularization work."
 source: 'https://www.maths.cam.ac.uk/features/professor-hannah-fry-wins-leelavati-prize'
 heroImage: "/hero/prof-hannah-fry-recebe-o-premio-leelavati-pela-divulgacao-da.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 Professor Hannah Fry has been honored with the Leelavati Prize at the 2026 International Congress of Mathematicians, recognizing her contribution to increasing public awareness of mathematics.
 

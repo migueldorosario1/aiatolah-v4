@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "The skills acquired in liberal arts courses have a surprising impact on technical careers, such as programming."
 source: 'https://innig.net/teaching/liberal-arts-manifesto'
 heroImage: "/hero/educacao-liberal-arts-e-suas-aplicacoes-em-carreira-e-vida.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 In his academic journey, the author of the article on innig.net, titled 'What Liberal Arts Education Is for (2024)', decided to participate in a Religious Studies class called 'The Letters of Paul'. He chose this course for two reasons: his name is Paul and the professor, Cal Roetzel, was known for his innovative teaching methods.
 

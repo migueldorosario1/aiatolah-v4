@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "New research from the University of St Andrews and the Université de Neuchâtel discovers how sperm whales sleep vertically"
 source: 'https://news.st-andrews.ac.uk/archive/sperm-whales-blow-bubbles-to-achieve-restful-vertical-sleep/'
 heroImage: "/hero/pesquisadores-revelam-o-segredo-do-sono-vertical-das-baleias.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 Recently, researchers from the University of St Andrews and the Université de Neuchâtel unveiled a new study on the unique sleep mechanism of sperm whales. This type of whale is the only known whale to rest in a vertical position, sleeping near the ocean surface, away from the disturbance of waves, while avoiding the energy expenditure required to dive deeper.
 

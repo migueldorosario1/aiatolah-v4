@@ -6,6 +6,7 @@ category: 'Europe Tech'
 lang: "en"
 source: 'https://www.lebigdata.fr/chine-vs-usa-comprendre-la-guerre-des-puces'
 heroImage: "/hero/china-vs-usa-understanding-the-chip-war.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

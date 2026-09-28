@@ -6,6 +6,7 @@ category: 'AI News'
 lang: "en"
 source: "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTmZ6SXBWVXB5aDBPUTJMNzRxVjdxTW9zc0FELTdJQkdtMDg4YjRJbFNNdTVmTmVfX1Y2M2I5VjJLY3ZRaTVmeGZHdi1rLWp2a0NpWENqcHQwMnRVRnFCTXNxSXozeWVPUjRsbkI0dlhLWTdhQ2FVTEw2LTEyMjVXQXdvdWxFdTk4Vmc?oc=5"
 heroImage: "/hero/nvidia-releases-aiperf-for-benchmarking-large-language-model-inference.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 
 NVIDIA has published a technical blog post introducing AIPerf, a tool for benchmarking large language model inference at scale.

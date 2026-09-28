@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Segfault incidents reported during extensive searches with RipGrep 15.2.0 on x86_64-unknown-linux-musl."
 source: 'https://github.com/BurntSushi/ripgrep/issues/3494'
 heroImage: "/hero/ripgrep-musl-binaries-crash-on-large-searches.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 A recent issue has been reported on GitHub concerning the RipGrep tool, specifically its musl binaries, which occasionally experience segmentation faults (segfaults) during very large-scale searches. According to the user's report on the [RipGrep GitHub repository](https://github.com/BurntSushi/ripgrep/issues/3494), the version of ripgrep in question is 15.2.0, compiled with features like pcre2 and simd support for SSE2, SSSE3, and AVX2.
 

@@ -6,6 +6,7 @@ category: 'AI News'
 lang: "en"
 source: "https://news.google.com/rss/articles/CBMiSkFVX3lxTE50eTN1NjlWeENaZ0t5dndUS1BKbWJxdVh2NVctN0EwNTNfTDVTd25hV3FtRlRkbENNWmNYbUlRaWMyZEJIZVMwS3V3?oc=5"
 heroImage: "/hero/aimultiple-releases-aim-code-bench-for-agentic-coding-evaluation.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 
 AIMultiple has published a new benchmark called AIM-Code Bench.

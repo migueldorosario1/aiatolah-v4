@@ -6,6 +6,7 @@ category: 'Southeast Asia'
 lang: "en"
 source: 'https://ekonomi.bisnis.com/read/20260129/257/1948473/as-hingga-china-ramai-ramai-bangun-pabrik-semikonduktor-di-ri'
 heroImage: "/hero/us-and-china-eagerly-build-semiconductor-factories.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

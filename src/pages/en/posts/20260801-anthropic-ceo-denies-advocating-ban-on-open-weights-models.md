@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Dario Amodei clarifies position: does not support banning open models, but advocates chip controls and safety testing."
 source: 'https://www.anthropic.com/news/position-open-weights-models'
 heroImage: "/hero/anthropic-ceo-nega-defesa-de-banimento-de-modelos-open-weigh.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 In an article published on Anthropic's website, CEO Dario Amodei clarified the company's position on open-weights models, especially Chinese ones. According to Amodei, reports indicate that some US officials are considering banning the use of Chinese open models by American companies. In response, many tech companies signed a letter supporting open models, and some accused Anthropic of wanting to ban these models to protect its business.
 

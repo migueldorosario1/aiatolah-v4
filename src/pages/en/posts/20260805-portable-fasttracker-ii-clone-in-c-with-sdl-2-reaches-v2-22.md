@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Developer releases clone of Fasttracker II in C with SDL 2, version 2.22, open source on GitHub and support for Linux, Windows and macOS."
 source: 'https://16-bits.org/ft2.php'
 heroImage: "/hero/clone-portatil-do-fasttracker-ii-em-c-com-sdl-2-chega-a-v2-2.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 The 90s music tracker gets a new life: a developer has published a portable clone of Fasttracker II, written in C and using the SDL 2 library. Version 2.22 was made available on July 19, 2026, according to 16-bits.org.
 

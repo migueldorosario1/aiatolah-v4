@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "With AI agents, Google fixed 1072 Chrome security bugs in two months, surpassing 23 previous versions."
 source: 'https://blog.google/security/chrome-stronger-with-every-update/'
 heroImage: "/hero/google-corrigiu-mais-bugs-do-chrome-em-junho-do-que-em-dois.jpg"
+hero_credit: "quapan / Wikimedia Commons (CC BY 2.0)"
 ---
 Google announced that, thanks to the intensive use of artificial intelligence, it fixed more Chrome security bugs in June 2026 than in the previous two years. The information was released on the company's official blog, blog.google.
 

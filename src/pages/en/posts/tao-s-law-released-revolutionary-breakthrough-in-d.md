@@ -6,6 +6,7 @@ category: 'China Tech'
 lang: "en"
 source: 'https://caifuhao.eastmoney.com/news/20260705064342501599920'
 heroImage: "/hero/tao-s-law-released-revolutionary-breakthrough-in-d.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

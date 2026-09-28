@@ -6,6 +6,7 @@ category: 'YouTube'
 lang: "en"
 source: 'https://www.youtube.com/watch?v=a9V1XgFOa5I'
 heroImage: "/hero/youtube-a9V1XgFOa5I.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 
 # Fast inference changes what you can build

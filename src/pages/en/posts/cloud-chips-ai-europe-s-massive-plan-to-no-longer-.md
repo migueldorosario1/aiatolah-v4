@@ -6,6 +6,7 @@ category: 'Europe Tech'
 lang: "en"
 source: 'https://www.lesechos.fr/tech-medias/hightech/cloud-puces-ia-le-plan-massif-de-leurope-pour-ne-plus-dependre-des-americains-2234803'
 heroImage: "/hero/cloud-chips-ai-europe-s-massive-plan-to-no-longer-.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

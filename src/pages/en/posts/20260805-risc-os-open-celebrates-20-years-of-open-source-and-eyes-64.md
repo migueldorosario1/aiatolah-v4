@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "ROOL completes two decades of opening RISC OS; Apache 2.0, Raspberry Pi, and Moonshots plan mark the journey."
 source: 'https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open'
 heroImage: "/hero/risc-os-open-celebra-20-anos-de-codigo-aberto-e-mira-64-bits.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 On June 20, 2006, RISC OS Open Ltd (ROOL) was incorporated with an ambition considered 'slightly mad': to turn a proprietary operating system into open software for anyone interested in contributing. Two decades later, the mission has been largely accomplished, and the current RISC OS is in much better health than the one inherited.
 

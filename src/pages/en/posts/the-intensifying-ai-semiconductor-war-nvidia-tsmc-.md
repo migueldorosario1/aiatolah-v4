@@ -6,6 +6,7 @@ category: 'Korea AI'
 lang: "en"
 source: 'https://weekly.donga.com/economy/article/all/11/4976122/1'
 heroImage: "/hero/the-intensifying-ai-semiconductor-war-nvidia-tsmc-.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

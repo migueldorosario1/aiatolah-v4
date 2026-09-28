@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Modal engineer tells how running Kimi K3 on his own endpoint brought a sense of freedom and control over data."
 source: 'https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/'
 heroImage: "/hero/usar-modelo-aberto-e-surpreendentemente-libertador-relata-de.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 After two years using Claude and ChatGPT like everyone else, Modal engineer Matthew Saltz had an unexpected experience: running an open model on his own endpoint. And, according to him, it was surprisingly good.
 

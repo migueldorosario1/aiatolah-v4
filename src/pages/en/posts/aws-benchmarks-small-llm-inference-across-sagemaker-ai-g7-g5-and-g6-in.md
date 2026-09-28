@@ -6,6 +6,7 @@ category: 'AI News'
 lang: "en"
 source: "https://news.google.com/rss/articles/CBMisAFBVV95cUxQY05CMi1aODEzR09IRXVITlFPZXR3c3pldjlLMHJZdjM2WmM3ZUxNXzcwM3JFeUxDdGRnb0QzNXMxZTFudWp4NlRJU3QyUTE0blRCLUFtcEpaZDZqTkNyeGtzX21walJjWE1CcGk1YTZoUi01S1J0c09XWnJiV1RFLTBWa1VodXFUc25kWjF2VmdZUml4OWR4WkU5Zkd2RXM5b1hxamJZMXRDSEx4YUZOXw?oc=5"
 heroImage: "/hero/aws-benchmarks-small-llm-inference-across-sagemaker-ai-g7-g5-and-g6-in.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 
 Amazon Web Services has published a benchmarking study of small large language model inference on SageMaker AI, comparing the G7 instance family against G5 and G6.

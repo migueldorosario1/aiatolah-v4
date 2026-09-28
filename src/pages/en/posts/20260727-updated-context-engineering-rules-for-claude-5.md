@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Claude Code has evolved: discover how to update your context engineering with more advanced generation models."
 source: 'https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models'
 heroImage: "/hero/regras-atualizadas-de-engenharia-de-contexto-para-o-claude-5.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 Claude models have become even more advanced, and your context engineering rules needed to be revolutionized. Recently, the development team noticed a huge leap in how the latest models, such as Claude Opus 5 and Claude Fable 5, are triggered. Over 80% of the Claude Code system prompt was removed without any measurable loss in coding evaluations.
 

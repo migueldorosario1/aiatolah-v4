@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Open source forum project Misago removes React.js from codebase and adopts HTMX, eliminating template duplication and improving performance."
 source: 'https://misago-project.org/t/removing-reactjs-from-the-codebase-and-adapting-htmx-for-ui-interactivity/1267/'
 heroImage: "/hero/misago-abandona-react-js-e-adota-htmx-para-simplificar-forum.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 The Misago project, an open source forum software, announced the removal of React.js from its codebase and the adoption of HTMX for interface interactivity. The decision was detailed in a discussion on the project's official forum.
 

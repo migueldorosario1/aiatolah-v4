@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "ByteDance launches Seedance 2.5 with 30s generation, multi-round extension, and multimodal references for professional creation."
 source: 'https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5'
 heroImage: "/hero/seedance-2-5-videos-de-30s-em-uma-passada-e-referencias-mult.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 ByteDance has officially introduced Seedance 2.5, its new generation of video creation model. The announcement, published on July 31, 2026 on the Seed team blog, highlights a shift in what users expect: it's not enough to generate a clip, you need to complete a creative work.
 

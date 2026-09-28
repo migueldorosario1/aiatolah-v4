@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Alibaba's Qwen3 235B-A22B is the largest open-source language model available, outperforming GPT-4o on multiple benchmarks while being freely downloadable and self-hostable."
 source: "https://qwenlm.github.io"
 heroImage: "/hero/qwen3.png"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 
 # Alibaba's Qwen3 235B: The Largest Open-Source Model — And It's Chinese

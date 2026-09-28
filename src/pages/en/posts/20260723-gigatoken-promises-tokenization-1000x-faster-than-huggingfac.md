@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "New Rust library achieves GB/s tokenization, outperforming HuggingFace and tiktoken in benchmarks."
 source: 'https://github.com/marcelroed/gigatoken/'
 heroImage: "/hero/gigatoken-promete-tokenizacao-1000x-mais-rapida-que-huggingf.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 Developer Marcel Röed has released GigaToken, a tokenization library for language models that promises to be up to 1000 times faster than HuggingFace Tokenizers. The project is available on GitHub and can be installed via pip.
 

@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Ruff v0.16.0 raises default rules from 59 to 413, formats Python blocks in Markdown, and adds suppression comments."
 source: 'https://astral.sh/blog/ruff-v0.16.0'
 heroImage: "/hero/ruff-v0-16-0-413-regras-padrao-formatacao-markdown-e-novos-s.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 Astral has released Ruff v0.16.0, the Python linting and formatting tool written in Rust. The new version brings significant changes, including a much larger set of default rules, formatting of Python code blocks in Markdown, and new diagnostic suppression mechanisms.
 

@@ -6,6 +6,7 @@ category: 'China Tech'
 lang: "en"
 source: 'https://www.guancha.cn/economy/2026_04_15_813726.shtml'
 heroImage: "/hero/nvidia-s-monopoly-loosens-the-golden-age-of-domest.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

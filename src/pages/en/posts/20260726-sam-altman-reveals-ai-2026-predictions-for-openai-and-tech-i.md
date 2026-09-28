@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "AI 2026 roadmap unveils predictions for OpenAI's future, including advancements in GPT-6 and shifts in consumer and enterprise AI demands."
 source: 'https://digitalstrategy-ai.com/2026/01/02/openai-sam-altman-2026/'
 heroImage: "/hero/sam-altman-reveals-ai-2026-predictions-for-openai-and-tech-i.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 Artificial intelligence continues to evolve rapidly, with the Sam Altman AI 2026 roadmap providing a forward-looking perspective on its trajectory. Here are the key insights from Altman's vision for OpenAI and the tech industry as reported by digitalstrategy-ai.com.
 

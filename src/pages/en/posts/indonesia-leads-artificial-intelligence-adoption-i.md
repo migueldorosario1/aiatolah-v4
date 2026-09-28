@@ -6,6 +6,7 @@ category: 'Southeast Asia'
 lang: "en"
 source: 'https://youngster.id/headline/technology/indonesia-pimpin-adopsi-kecerdasan-buatan-di-asia-tenggara/'
 heroImage: "/hero/indonesia-leads-artificial-intelligence-adoption-i.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

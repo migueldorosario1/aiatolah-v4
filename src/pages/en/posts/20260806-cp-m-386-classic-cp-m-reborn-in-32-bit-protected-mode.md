@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Project brings CP/M to 386 protected mode with Ring-3 TPA, boot from floppy or GRUB, and high compatibility with CP/M-68K and 2.2."
 source: 'https://github.com/johnsonjh/cpm386'
 heroImage: "/hero/cp-m-386-cp-m-classico-renasce-em-modo-protegido-32-bits.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 The classic CP/M, the operating system that dominated the microcomputer era before DOS, gains a new life for the modern x86 architecture. The CP/M-386 project, available on GitHub, brings the system to the 32-bit protected mode of the 386 processors, derived directly from CP/M-68K.
 

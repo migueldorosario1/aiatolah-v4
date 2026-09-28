@@ -6,6 +6,7 @@ category: 'Europe Tech'
 lang: "en"
 source: 'https://www.touteleurope.eu/l-ue-dans-le-monde/puces-cloud-ia-l-ue-presente-son-plan-pour-reduire-ses-dependances-technologiques/'
 heroImage: "/hero/chips-cloud-ai-european-commission-unveils-plan-to.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

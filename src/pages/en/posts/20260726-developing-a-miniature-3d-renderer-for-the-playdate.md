@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "See how the challenge of creating a 3D software renderer for the Playdate handheld device went."
 source: 'https://saffroncr.itch.io/katavatis/devlog/1534514/building-a-tiny-3d-renderer-for-a-tiny-handheld'
 heroImage: "/hero/desenvolvendo-um-renderizador-3d-miniatura-para-o-playdate.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 Recently, the journey of writing a 3D software renderer for the Playdate was shared in a fascinating insight. Initially, without a performance baseline, the path began with a simple test: a raycaster.
 

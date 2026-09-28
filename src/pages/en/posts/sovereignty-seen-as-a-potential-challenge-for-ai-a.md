@@ -6,6 +6,7 @@ category: 'Southeast Asia'
 lang: "en"
 source: 'https://www.antaranews.com/berita/5612144/kedaulatan-dinilai-berpotensi-jadi-tantangan-adopsi-ai-di-asean'
 heroImage: "/hero/sovereignty-seen-as-a-potential-challenge-for-ai-a.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

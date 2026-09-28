@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Go 1.27 brings generic methods, UUID, ML-DSA, allocation optimizations, and leaked goroutine profiling."
 source: 'https://victoriametrics.com/blog/go-1-27/index.html'
 heroImage: "/hero/go-1-27-chega-com-metodos-genericos-uuid-e-assinatura-pos-qu.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 Go 1.27 is coming, and the VictoriaMetrics team has prepared an interactive tour with executable examples to show what's changing. The material, published on the company's blog, is based on the official release notes and the language's source code, licensed under BSD-3-Clause.
 

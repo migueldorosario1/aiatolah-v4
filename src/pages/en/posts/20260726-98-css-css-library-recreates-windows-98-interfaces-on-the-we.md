@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "98.css is a CSS library that faithfully recreates the appearance of Windows 98. No JavaScript, compatible with any framework, and focused on accessibility."
 source: 'https://jdan.github.io/98.css/#status-bar'
 heroImage: "/hero/98-css-biblioteca-css-recria-interfaces-do-windows-98-na-web.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 Designer Jordan Scales, under the pseudonym jdan.github.io, has launched 98.css, a CSS library that allows building interfaces faithful to Windows 98. The project is available on GitHub and can be installed via npm or directly imported from unpkg.
 

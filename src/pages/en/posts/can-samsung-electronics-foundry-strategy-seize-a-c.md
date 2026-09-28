@@ -6,6 +6,7 @@ category: 'Korea AI'
 lang: "en"
 source: 'https://aspiringceo.co.kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-%ED%8C%8C%EC%9A%B4%EB%93%9C%EB%A6%AC-%EC%A0%84%EB%9E%B5-tsmc%CE%B1-%EC%8B%9C%EB%8C%80%EC%97%90%EC%84%9C-%EB%B0%98%EA%B2%A9%EC%9D%98-%EA%B8%B0%ED%9A%8C%EB%A5%BC/'
 heroImage: "/hero/can-samsung-electronics-foundry-strategy-seize-a-c.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

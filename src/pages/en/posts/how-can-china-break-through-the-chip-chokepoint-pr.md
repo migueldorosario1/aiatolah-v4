@@ -6,6 +6,7 @@ category: 'China Tech'
 lang: "en"
 source: 'https://zhuanlan.zhihu.com/p/23374318053'
 heroImage: "/hero/how-can-china-break-through-the-chip-chokepoint-pr.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "The University of Chicago Law School adapts its legal education to the AI era, creating policies and guidelines for AI use."
 source: 'https://www.law.uchicago.edu/news/ai-strategy-statement'
 heroImage: "/hero/aplicacoes-da-ia-na-educacao-juridica-a-abordagem-da-univers.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 The era of artificial intelligence (AI) is having a significant impact on higher education and the legal profession, and the speed of change seems only to be accelerating. In this perspective, it is crucial that we carefully reflect on how legal education should adapt. According to law.uchicago.edu, the University of Chicago Law School has always been committed to offering students the most rigorous legal education possible.
 

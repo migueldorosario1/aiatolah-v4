@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "AI pioneer Geoffrey Hinton shares new perspectives on machine sentience, alternative safety models, and why predicting the impact of AI beyond a decade is like driving in a heavy fog."
 source: "https://youtu.be/p7t1Q_p2gZs"
 heroImage: "/hero/hinton-interview.png"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 
 <div class="video-container" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:12px; margin-bottom:30px; box-shadow:0 10px 30px rgba(0,0,0,0.3); border:1px solid #1e293b;">

@@ -6,6 +6,7 @@ category: 'Korea AI'
 lang: "en"
 source: 'https://www.kiep.go.kr/galleryDownload.es?bid=0004&list_no=12147&seq=1'
 heroImage: "/hero/analysis-of-the-impact-of-us-semiconductor-export-.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "An inside look at the creation process of Fedora 45 artifacts, from the package commit to the final installable version."
 source: 'https://supakeen.com/weblog/the-fedora-45-sausage-factory/'
 heroImage: "/hero/fedora-45-um-estudo-sobre-a-fabricacao-dos-pacotes.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 Fedora 45, the latest version of the popular Linux operating system, is coming, and with it, an update in understanding the process of creating its packages. This article walks through step by step how Fedora transforms source code and packages into artifacts for download and installation, from a packager's `git push` to the composition of the final release, which includes ISOs, cloud images, container images, and OSTree deployments.
 

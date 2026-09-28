@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "W4ME Station, a new WASM-4 runtime for Java ME devices, brings unmodified WebAssembly games to CLDC 1.1/MIDP 2.0 devices."
 source: 'https://github.com/mulfyx/w4me-station'
 heroImage: "/hero/w4me-station-permite-execucao-de-jogos-wasm-4-em-telefones-j.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 W4ME Station, an innovative solution for Java ME devices, has brought the opportunity to run WebAssembly games on older devices, such as feature phones from the 2000s. According to github.com, this runtime allows the execution of unmodified WebAssembly 'cartridges' on devices compatible with CLDC 1.1 and MIDP 2.0.
 

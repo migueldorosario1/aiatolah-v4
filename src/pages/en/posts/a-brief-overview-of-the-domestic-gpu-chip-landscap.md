@@ -6,6 +6,7 @@ category: 'China Tech'
 lang: "en"
 source: 'https://zhuanlan.zhihu.com/p/2008418709350417631'
 heroImage: "/hero/a-brief-overview-of-the-domestic-gpu-chip-landscap.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

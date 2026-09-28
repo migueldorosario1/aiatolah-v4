@@ -6,6 +6,7 @@ category: 'Southeast Asia'
 lang: "en"
 source: 'https://polkam.go.id/indonesia-tekankan-pentingnya-tata-kelola-inklusif-dan-kedaulatan-digital-dalam-pengembangan-ai-di-asean/'
 heroImage: "/hero/indonesia-emphasizes-the-importance-of-inclusive-g.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

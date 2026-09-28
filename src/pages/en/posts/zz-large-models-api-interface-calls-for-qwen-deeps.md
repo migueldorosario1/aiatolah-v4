@@ -6,6 +6,7 @@ category: 'China Tech'
 lang: "en"
 source: 'https://www.cnblogs.com/charlesblc/p/19340750'
 heroImage: "/hero/zz-large-models-api-interface-calls-for-qwen-deeps.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

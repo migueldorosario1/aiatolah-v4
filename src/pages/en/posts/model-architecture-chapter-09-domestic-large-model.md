@@ -6,6 +6,7 @@ category: 'China Tech'
 lang: "en"
 source: 'https://ai6s.net/6a2b6dc1662f9a54cb7d6bf7.html'
 heroImage: "/hero/model-architecture-chapter-09-domestic-large-model.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

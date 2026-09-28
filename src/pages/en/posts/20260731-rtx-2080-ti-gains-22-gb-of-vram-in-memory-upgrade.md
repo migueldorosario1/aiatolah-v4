@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Service doubles RTX 2080 Ti VRAM capacity to 22 GB, ideal for AI and heavy workloads."
 source: 'https://gpusolutions.net/rbservices/graphics-card-upgrade/'
 heroImage: "/hero/rtx-2080-ti-ganha-22-gb-de-vram-em-upgrade-de-memoria.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 The RTX 2080 Ti graphics card, released in 2018, can gain significant longevity for artificial intelligence and content creation tasks. A service offered by gpusolutions.net promises to double the model's original VRAM, taking it from 11 GB to 22 GB.
 

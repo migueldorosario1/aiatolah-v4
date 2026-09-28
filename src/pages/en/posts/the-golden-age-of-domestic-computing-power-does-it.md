@@ -6,6 +6,7 @@ category: 'China Tech'
 lang: "en"
 source: 'https://www.guancha.cn/economy/2026_04_15_813726.shtml'
 heroImage: "/hero/the-golden-age-of-domestic-computing-power-does-it.jpg"
+hero_credit: "Shixart1985 / Wikimedia Commons (CC BY 2.0)"
 noHome: true
 ---
 

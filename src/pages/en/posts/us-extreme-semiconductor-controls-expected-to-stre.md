@@ -6,6 +6,7 @@ category: 'Korea AI'
 lang: "en"
 source: 'https://www.viva100.com/article/20260620500122'
 heroImage: "/hero/us-extreme-semiconductor-controls-expected-to-stre.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

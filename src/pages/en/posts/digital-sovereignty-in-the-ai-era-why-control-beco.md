@@ -6,6 +6,7 @@ category: 'Southeast Asia'
 lang: "en"
 source: 'https://www.fortuneidn.com/tech/kedaulatan-digital-di-era-ai-kontrol-jadi-aset-strategis-perusahaan-00-98121-0818m9'
 heroImage: "/hero/digital-sovereignty-in-the-ai-era-why-control-beco.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

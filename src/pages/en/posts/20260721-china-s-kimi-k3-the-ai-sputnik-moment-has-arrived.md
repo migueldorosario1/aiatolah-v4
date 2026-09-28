@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Emad Mostaque and Peter Diamandis analyze the launch of the Chinese K3 model, marking a turning point in the global AI race."
 source: 'https://www.youtube.com/watch?v=pSUyLfirP8Y'
 heroImage: "/hero/youtube-pSUyLfirP8Y.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pSUyLfirP8Y" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 

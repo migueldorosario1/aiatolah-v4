@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Developer creates ssh-askpass in Zig and GTK4 to avoid X11 and KDE dependencies on Gentoo."
 source: 'https://xn--gckvb8fzb.com/a-gtk4-ssh-askpass-in-zig/'
 heroImage: "/hero/zig-e-gtk4-um-ssh-askpass-leve-para-gentoo-sem-x11.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 A Gentoo developer, tired of ssh-askpass options that drag in X11 or an entire KDE stack, decided to write their own solution. The result is a utility made in Zig 0.16 and GTK4, with hand-written bindings that keep X out of the compilation.
 

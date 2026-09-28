@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "ssh.place turns SSH into a collaborative canvas: 200x60 cells, no account, one pixel every 15s."
 source: 'https://ssh.place'
 heroImage: "/hero/ssh-vira-tela-de-desenho-colaborativo-ssh-ssh-place.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 SSH, the classic remote administration protocol, has gained an unusual use: turning into a collaborative drawing canvas. The ssh.place project, presented on Hacker News, allows anyone to draw on a shared canvas using only an SSH connection.
 

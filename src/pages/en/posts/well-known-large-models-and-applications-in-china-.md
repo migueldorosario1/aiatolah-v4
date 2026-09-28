@@ -6,6 +6,7 @@ category: 'China Tech'
 lang: "en"
 source: 'https://zhuanlan.zhihu.com/p/670574382'
 heroImage: "/hero/well-known-large-models-and-applications-in-china-.jpg"
+hero_credit: "Editor at Large / Wikimedia Commons (CC BY-SA 2.5)"
 noHome: true
 ---
 

@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Google engineer shows that LLMs can automate proofs in Lean, drastically reducing the effort of formal verification."
 source: 'https://www.imperialviolet.org/2026/07/26/zstd-lean.html'
 heroImage: "/hero/lean-llms-prova-automatica-torna-sistemas-de-tipos-viaveis.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 Formal verification has always been a distant dream for most programmers. Languages with dependent types, such as Coq (now Rocq) and Lean, promise to automatically check complex invariants, but the cost in proof time has always been prohibitive.
 

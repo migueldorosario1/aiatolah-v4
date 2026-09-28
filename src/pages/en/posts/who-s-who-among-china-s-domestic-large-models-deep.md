@@ -6,6 +6,7 @@ category: 'China Tech'
 lang: "en"
 source: 'https://blog.wenhaofree.com/posts/articles/china-llm-company-product-api-map/'
 heroImage: "/hero/who-s-who-among-china-s-domestic-large-models-deep.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

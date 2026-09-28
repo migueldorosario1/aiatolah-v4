@@ -6,6 +6,7 @@ category: 'Europe Tech'
 lang: "en"
 source: 'https://www.challenges.fr/entreprise/tech-numerique/chine-vs-etats-unis-pourquoi-la-guerre-des-puces-va-sintensifier_597937'
 heroImage: "/hero/china-vs-united-states-why-the-chip-war-will-inten.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

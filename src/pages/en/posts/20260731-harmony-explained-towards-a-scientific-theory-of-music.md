@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "2012 article proposes a computational theory of harmony, deriving the major scale, standard chord dictionary, and the difference between major and minor tr"
 source: 'https://arxiv.org/abs/1202.4212'
 heroImage: "/hero/harmonia-explicada-rumo-a-uma-teoria-cientifica-da-musica.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 Traditional music theory is compared to medieval medicine books: full of superstitions, unjustified symbols, and Latin phrases. This is what Daniel Wilkerson, author of the article 'Harmony Explained: Progress Towards a Scientific Theory of Music', available on arxiv.org since 2012, claims.
 

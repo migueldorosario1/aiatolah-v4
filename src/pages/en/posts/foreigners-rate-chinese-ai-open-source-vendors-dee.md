@@ -6,6 +6,7 @@ category: 'China Tech'
 lang: "en"
 source: 'https://developer.volcengine.com/articles/7540544886534864939'
 heroImage: "/hero/foreigners-rate-chinese-ai-open-source-vendors-dee.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

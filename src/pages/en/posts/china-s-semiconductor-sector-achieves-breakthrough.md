@@ -6,6 +6,7 @@ category: 'China Tech'
 lang: "en"
 source: 'https://finance.sina.com.cn/tech/roll/2026-05-25/doc-inhzascp5184820.shtml'
 heroImage: "/hero/china-s-semiconductor-sector-achieves-breakthrough.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

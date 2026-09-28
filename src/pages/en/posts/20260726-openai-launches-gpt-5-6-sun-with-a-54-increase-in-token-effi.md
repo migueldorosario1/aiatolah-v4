@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Sam Altman reveals that the new model is 54% more efficient in agentic coding tasks and as good as rivals."
 source: 'https://www.cnbc.com/2026/07/09/open-ai-sam-altman-chatgpt-5-6-sol.html'
 heroImage: "/hero/openai-lanca-gpt-5-6-sol-com-ganho-de-54-em-eficiencia-de-to.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 OpenAI launched its newest series of models, GPT-5.6 Sun, Earth, and Luna, this Thursday, which were announced last month. CEO Sam Altman told CNBC that the Sun model is 54% more token-efficient in agentic coding tasks, and that it is 'as good as or better' than competitors in the market.
 

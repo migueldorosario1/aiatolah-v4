@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Fermion Research launches Neutrino-1 8B with ternary weights that fit in 3.88 GB, serving GPU, Mac and CPU from the same artifact."
 source: 'https://www.fermionresearch.com/models/neutrino-8b/'
 heroImage: "/hero/neutrino-1-8b-modelo-ternario-de-3-88-gb-roda-em-gpu-e-lapto.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 Fermion Research announced Neutrino-1 8B, an 8.19 billion parameter language model that stores all its 252 transformer linear layers in a proprietary ternary weight format, eight times smaller than fp16. The result is a single 3.88 GB file that runs on datacenter GPUs, Apple Silicon, and desktop CPUs without conversion.
 

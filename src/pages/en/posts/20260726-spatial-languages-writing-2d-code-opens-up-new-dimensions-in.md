@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Explores how the addition of an extra dimension can revolutionize the way we write and understand code."
 source: 'https://shukla.io/blog/2026-07/cccx.html'
 heroImage: "/hero/linguagens-espaciais-escrevendo-codigo-em-2d-abre-novas-dime.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 In 2026, traditional one-dimensional programming is about to be challenged by languages that explore the potential of two-dimensional programming. As suggested by the article published on shukla.io, writing vertical expressions could not only change the way we structure code but also increase its efficiency and readability.
 

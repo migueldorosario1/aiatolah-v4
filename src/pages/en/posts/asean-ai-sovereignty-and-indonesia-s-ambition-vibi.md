@@ -6,6 +6,7 @@ category: 'Southeast Asia'
 lang: "en"
 source: 'https://www.vibizmedia.com/index.php/2026/06/18/kedaulatan-ai-asean-dan-ambisi-indonesia/'
 heroImage: "/hero/asean-ai-sovereignty-and-indonesia-s-ambition-vibi.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

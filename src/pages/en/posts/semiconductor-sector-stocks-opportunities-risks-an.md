@@ -6,6 +6,7 @@ category: 'Southeast Asia'
 lang: "en"
 source: 'https://heygotrade.com/id/blog/saham-sektor-semikonduktor'
 heroImage: "/hero/semiconductor-sector-stocks-opportunities-risks-an.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

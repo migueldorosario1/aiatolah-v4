@@ -6,6 +6,7 @@ category: 'China Tech'
 lang: "en"
 source: 'https://zhuanlan.zhihu.com/p/670574382'
 heroImage: "/hero/well-known-large-models-and-applications-at-home-a.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

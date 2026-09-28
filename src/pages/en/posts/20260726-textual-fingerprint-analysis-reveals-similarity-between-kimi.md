@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Typebulb tool compares models by writing patterns; Kimi (Moonshot) and Claude (Anthropic) appear as the most similar."
 source: 'https://typebulb.com/u/lab/you-re-relatively-right/full'
 heroImage: "/hero/analise-de-impressao-digital-textual-revela-semelhanca-entre.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 A new linguistic analysis tool developed by Typebulb is drawing attention from the AI community. Dubbed 'You're relatively right!', the application uses character trigrams and word n-grams to build a similarity heatmap between language models.
 

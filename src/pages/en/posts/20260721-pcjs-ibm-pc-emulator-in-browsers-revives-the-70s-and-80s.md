@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "PCjs brings classic hardware emulation via JavaScript, including IBM PC, minicomputers, and arcades. Open source project on GitHub."
 source: 'https://www.pcjs.org/'
 heroImage: "/hero/pcjs-emulador-de-ibm-pc-nos-navegadores-revive-decadas-de-70.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 A digital preservation project brings classic computers from the 1970s and 1980s directly to the browser. This is PCjs, an emulator written in JavaScript that recreates everything from the original IBM PC to minicomputers, programmable calculators, and terminals.
 

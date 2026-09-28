@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "GrapheneOS explains its protection layers: rate limiting, insider attack resistance, duress PIN, and automatic reboot for data security."
 source: 'https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices'
 heroImage: "/hero/grapheneos-detalha-defesas-contra-extracao-de-dados-em-dispo.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 GrapheneOS, an operating system focused on privacy and security, has published a detailed breakdown of its defenses against data extraction from locked devices. According to discuss.grapheneos.org, the system relies heavily on the standard security features of Android 17 and the most secure hardware available for Android.
 

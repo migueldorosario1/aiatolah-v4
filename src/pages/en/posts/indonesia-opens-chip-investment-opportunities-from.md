@@ -6,6 +6,7 @@ category: 'Southeast Asia'
 lang: "en"
 source: 'https://kumparan.com/kumparanbisnis/indonesia-buka-peluang-investasi-chip-dari-china-22vxr0llFV0'
 heroImage: "/hero/indonesia-opens-chip-investment-opportunities-from.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

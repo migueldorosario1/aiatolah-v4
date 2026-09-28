@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "With RL on an open 9B model, the company surpasses GPT-5.5 and Claude Opus 4.8 in legal task at a fraction of the cost."
 source: 'https://fermisense.com/when-machines-take-the-wheel/'
 heroImage: "/hero/fine-tuning-de-us-500-supera-modelos-fronteira-em-revisao-de.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 A fine-tuning of just $500 with reinforcement learning on an open 9-billion-parameter model surpassed frontier models in a catalog review task. The case is one of three reported by the site fermisense.com, which shows how the combination of open-source model, proprietary data, and RL against a scored version of the workflow is becoming a winning playbook.
 

@@ -6,6 +6,7 @@ category: 'Korea AI'
 lang: "en"
 source: 'https://www.ajunews.com/view/20260601131635555'
 heroImage: "/hero/ai-ecosystem-war-tsmc-s-value-chain-limitations-ex.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

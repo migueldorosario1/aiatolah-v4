@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Bor v0.8.0 adds Thunderbird, Edge and Firewalld, revamps UI and strengthens security."
 source: 'https://getbor.dev/blog/2026-08-02-bor-v080-release/'
 heroImage: "/hero/bor-v0-8-0-gestao-de-politicas-open-source-para-linux-com-no.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 Bor v0.8.0 has arrived. The new version of the open source policy manager for Linux desktops brings three new policy types — Thunderbird, Microsoft Edge for Business, and Firewalld zones — along with a complete overhaul of the web interface, more granular RBAC, and a dedicated security hardening pass. The full changelog is on the GitHub release page.
 

@@ -6,6 +6,7 @@ category: 'Korea AI'
 lang: "en"
 source: 'https://www.mk.co.kr/news/business/12090115'
 heroImage: "/hero/tsmc-supply-bottleneck-gives-samsung-foundry-oppor.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

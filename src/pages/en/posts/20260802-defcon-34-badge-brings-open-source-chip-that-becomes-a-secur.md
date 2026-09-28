@@ -7,6 +7,7 @@ lang: "en"
 excerpt: "Baochip-1x chip, created by bunnie Huang, is open source and can be inspected down to the silicon."
 source: 'https://www.wired.com/story/defcon-34-badge-baochip-andrew-bunnie-huang/'
 heroImage: "/hero/defcon-34-badge-traz-chip-open-source-que-vira-chave-de-segu.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 ---
 Every year, the Defcon conference gifts its attendees with elaborate electronic badges, full of puzzles and cryptographic challenges. But this year's edition, Defcon 34, innovates: instead of the badge design being the star, the highlight is on the internal hardware.
 

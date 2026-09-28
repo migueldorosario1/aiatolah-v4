@@ -6,6 +6,7 @@ category: 'Europe Tech'
 lang: "en"
 source: 'https://kulturegeek.fr/news-353221/souverainete-technologique-leurope-devoile-plan-massif-puces-lia-cloud'
 heroImage: "/hero/technological-sovereignty-europe-unveils-massive-p.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 

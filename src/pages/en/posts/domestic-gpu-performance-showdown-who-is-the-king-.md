@@ -6,6 +6,7 @@ category: 'China Tech'
 lang: "en"
 source: 'https://www.eet-china.com/mp/a404728.html'
 heroImage: "/hero/domestic-gpu-performance-showdown-who-is-the-king-.jpg"
+hero_credit: "Madhav-Malhotra-003 / Wikimedia Commons (CC0)"
 noHome: true
 ---
 
