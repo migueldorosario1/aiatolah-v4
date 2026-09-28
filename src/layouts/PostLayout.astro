@@ -36,6 +36,7 @@ const relatedPosts = allPosts
   .filter(p => p.title !== title) // exclude current
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()) // sort by date
   .slice(0, 2); // get top 2 latest posts
+import BannerMoka from '../components/BannerMoka.astro';
 ---
 
 <Layout title={title} description={`${title} - Editorial analysis from a Global South perspective.`} image={heroImage}>
@@ -82,6 +83,8 @@ const relatedPosts = allPosts
       
       <div class="post-content">
         <slot />
+
+<BannerMoka />
       </div>
       
       <!-- Cesta Premium: Interlinks -->
